@@ -1,0 +1,49 @@
+# Build output directories
+build/
+.build/
+out/
+cmake-build-*/
+Debug/
+Release/
+x64/
+x86/
+
+# Compiled C/C++ files
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.gch
+*.ipch
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+
+# Local IDE state
+.vs/
+.idea/
+*.suo
+*.user
+*.VC.db
+*.VC.VC.opendb
+
+# Temporary files
+*.tmp
+*.swp
+*~
+Thumbs.db
+.DS_Store
