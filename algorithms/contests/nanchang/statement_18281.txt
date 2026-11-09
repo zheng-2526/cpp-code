@@ -1,0 +1,47 @@
+Journey of GCD
+     Input file:           standard input
+     Output file:          standard output
+     Time limit:           3 seconds
+     Memory limit:         1024 megabytes
+
+In the magical kingdom of Numerian, there are n cities, each with its own magical power level ai . The
+king has built bidirectional roads between every pair of cities. For the road connecting city u and city
+v, its Guardian Charm Degree (GCD) equals gcd(au , av ), which is the greatest common divisor of their
+magical power levels.
+For a traveler moving from city x to y, the Magical Immunity Number (MIN) of the journey is the
+minimum GCD among all roads taken. The royal advisors consider a journey “well-immune” if and only
+if its MIN is maximized.
+You are tasked with answering q queries from the king. For each query (x, y), output the maximum
+possible MIN among all paths from city x to city y.
+In particular, if x = y, the traveler never leaves the city, so the MIN is simply the city’s own magical
+power ax .
+
+Input
+The first line contains two integers n and q (1 ≤ n, q ≤ 106 ).
+The second line contains n integers a1 , a2 , · · · , an (1 ≤ ai ≤ 106 ), representing the magical power of each
+city.
+Each of the next q lines contains two integers x and y (1 ≤ x, y ≤ n), representing a query.
+
+Output
+For each query, output a single integer representing the maximum possible MIN.
+
+Example
+                standard input                                    standard output
+ 6 3                                                7
+ 6 15 22 33 35 63                                   3
+ 5 6                                                15
+ 3 5
+ 2 2
+
+Note
+For the sample, the magical power levels are a = [6, 15, 22, 33, 35, 63].
+Query 1: The optimal path is 5 → 6, and the answer is gcd(35, 63) = 7.
+Query 2: The optimal path is 3 → 4 → 6 → 5. The edge values are gcd(22, 33) = 11, gcd(33, 63) = 3, and
+gcd(63, 35) = 7, so the answer is min(11, 3, 7) = 3.
+Query 3: Since x = y, the traveler never leaves the city, so the answer is a2 = 15.
+
+
+
+
+                                                   Page 1 of 1
+

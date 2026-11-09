@@ -1,0 +1,109 @@
+The Meaning of the World
+     Input file:          standard input
+     Output file:         standard output
+     Time limit:          2 seconds
+     Memory limit:        1024 megabytes
+
+The meaning of the world must lie outside the world
+All things in the world are as they are and happen as they happen
+There is no value in the world
+—— Tractatus Logico-Philosophicus
+Fengmi gives you a string s of length n, consisting only of ‘(’ and ‘)’.
+You need to support q operations:
+
+  1. Flip the k-th bracket, i.e., change ‘(’ to ‘)’ and ‘)’ to ‘(’.
+
+  2. Query the length of the longest valid parentheses substring in the interval [l, r].
+
+Formally, you need to compute:
+
+                       f (l, r) = max({j − i + 1 | l ≤ i ≤ j ≤ r ∧ valid(i, j)} ∪ {0})
+
+where valid(i, j) indicates that the substring s[i..j] is a valid parentheses sequence.
+In this problem, a valid parentheses sequence is defined as follows:
+
+  1. The empty sequence is a valid sequence.
+
+  2. If A is a valid sequence, then (A) is also a valid sequence.
+
+  3. If A and B are both valid sequences, then AB is also a valid sequence.
+
+
+Input
+The first line contains two integers n and q (1 ≤ n, q ≤ 2 × 105 ) — the length of the bracket string and
+the number of operations.
+The second line contains a string s of length n, consisting only of the characters ‘(’ and ‘)’. The given
+string is not guaranteed to be a valid parentheses sequence.
+The next q lines each describe one of the following two operations:
+
+   • 1 k (1 ≤ k ≤ n): flip the k-th bracket.
+
+   • 2 l r (1 ≤ l ≤ r ≤ n): query the length of the longest valid parentheses substring in the interval
+     [l, r].
+
+Output
+For each operation of type 2, output a single integer on its own line — the answer.
+
+
+
+
+                                                  Page 1 of 2
+Examples
+               standard input                                    standard output
+ 8 5                                               8
+ ()(()())                                          4
+ 2 1 8                                             4
+ 1 4
+ 2 1 8
+ 1 7
+ 2 1 8
+ 12 6                                              12
+ (()())(()())                                      10
+ 2 1 12                                            12
+ 1 3                                               2
+ 2 1 12
+ 1 8
+ 2 1 12
+ 2 4 9
+
+Note
+Sample 1:
+
+   • Initial string: ()(()()).
+
+   • First query on interval [1, 8]: the longest valid parentheses substring is ()(()()) (positions 1 − 8),
+     length 8.
+
+   • Flip the 4th bracket: ()())()).
+
+   • Second query on interval [1, 8]: the longest valid parentheses substring is ()() (positions 1 − 4),
+     length 4.
+
+   • Flip the 7th bracket: ()())(().
+
+   • Third query on interval [1, 8]: the longest valid parentheses substring is ()() (positions 1−4), length
+     4.
+
+Sample 2:
+
+   • Initial string: (()())(()()).
+
+   • First query on interval [1, 12]: the longest valid parentheses substring is the entire string, length 12.
+
+   • Flip the 3rd bracket: (((())(()()).
+
+   • Second query on interval [1, 12]: the longest valid parentheses substring is (())(()()) (positions
+     3 − 12), length 10.
+
+   • Flip the 8th bracket: (((())())()).
+
+   • Third query on interval [1, 12]: the longest valid parentheses substring is (((())())()) (positions
+     1 − 12), length 12.
+
+   • Fourth query on interval [4, 9]: the longest valid parentheses substring is () (positions 4 − 5), length
+     2.
+
+
+
+                                                 Page 2 of 2
+

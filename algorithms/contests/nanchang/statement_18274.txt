@@ -1,0 +1,88 @@
+Tourist
+        Input ﬁle:        standard input
+        Output ﬁle:       standard output
+        Time limit:       1 second
+        Memory limit:     1024 megabytes
+
+The Construction Kingdom is a famous tourist attraction, attracting thousands of tourists every year.
+The kingdom consists of n towns and m directed roads. Each road has a length of 1. It is guaranteed that
+among the initial m roads, there are no duplicate roads and no road from a town to itself.
+
+Later, due to the continuous prosperity of tourism, the Construction Kingdom decided to expand the
+roads. Starting from day 1, over the next k days, a new directed road from x to y will be built each day.
+Due to improper planning, it may happen that an already existing road is built, or a road from a town
+to itself is built.
+
+Fengmi is a free-spirited tourist. She has q travel wishes and a desired distance w. Each wish has a start
+s and an end t (si and ti may be the same). She wants to know, for each wish, the earliest day on which
+she can start from town s, and under the condition that she is allowed to pass through towns and roads
+multiple times, exactly travel a distance of w to reach town t, or report that it is impossible. Please help
+her solve this problem.
+
+Input
+The ﬁrst line contains two integers n and m (2 ≤ n ≤ 200, 1 ≤ m ≤ n(n − 1)) — the number of towns
+and the number of initial roads.
+
+Each of the next m lines contains two integers ui and vi (1 ≤ ui , vi ≤ n, ui ̸= vi ), indicating a directed
+road from ui to vi .
+
+The next line contains an integer k (1 ≤ k ≤ n2 ) — the number of roads to be built in the following days.
+
+Each of the next k lines contains two integers xi and yi (1 ≤ xi , yi ≤ n), meaning that on day i, a new
+directed road from xi to yi is built.
+
+The next line contains two integers q and w (1 ≤ q ≤ n2 , 1 ≤ w ≤ 109 ) — the number of wishes and the
+desired distance.
+
+Each of the next q lines contains two integers si and ti (1 ≤ si , ti ≤ n) — the start and end of the i-th
+wish.
+
+Output
+For each wish, output a single integer — the earliest day that the wish can be fulﬁlled (i.e., after the road
+built on that day, there exists a walk of length exactly w from s to t). If it is never possible, output −1.
+
+
+
+
+                                                 Page 1 of 2
+Example
+                  standard input                                        standard output
+ 6 3                                                      -1
+ 1 3                                                      2
+ 2 3                                                      0
+ 3 1                                                      2
+ 4                                                        4
+ 4 5
+ 5 5
+ 2 5
+ 5 6
+ 5 8
+ 5 1
+ 5 5
+ 1 1
+ 4 5
+ 4 6
+
+Note
+In the sample, the desired distance is w = 8.
+
+
+     • For the ﬁrst wish, it can be proved that it is impossible.
+
+     • For the second wish, after the roads 4 → 5 and 5 → 5 are built, one can walk along the town
+       sequence [5, 5, 5, 5, 5, 5, 5, 5, 5] to reach the destination.
+
+     • For the third wish, initially one can walk along the town sequence [1, 3, 1, 3, 1, 3, 1, 3, 1] to the
+       destination.
+
+     • For the fourth wish, after the roads 4 → 5, 5 → 5 are built, one can walk along the town sequence
+       [4, 5, 5, 5, 5, 5, 5, 5, 5] to the destination.
+
+     • For the ﬁfth wish, after the roads 4 → 5, 5 → 5, 2 → 5, 5 → 6 are built, one can walk along the
+       town sequence [4, 5, 5, 5, 5, 5, 5, 5, 6] to the destination.
+
+
+
+
+                                                         Page 2 of 2
+

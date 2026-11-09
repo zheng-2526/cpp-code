@@ -1,0 +1,59 @@
+Eating Cherries
+     Input file:          standard input
+     Output file:         standard output
+     Time limit:          2 seconds
+     Memory limit:        1024 megabytes
+
+Jiangqiao loves eating cherries! Before the cherries ripened, he had already arrived at the cherry tree...
+A cherry tree consists of n nodes (numbered 1 to n) and n − 1 branches, which connect all the nodes
+together.
+Jiangqiao classifies the cherries on the whole cherry tree into m types (numbered 1 to m) based on size,
+color, sweetness, etc., where node i has ki types of cherries.
+A main branch is the path from the root node to a certain leaf node without repeating any node.
+That is, for root node u, the main branch from u to a leaf node v is a node sequence
+[u = x0 , x1 , x2 , . . . , xs = v], where node xi is connected to node xi+1 (i < s) by a branch, and xi ̸= xj
+whenever i ̸= j.
+A leaf node refers to a node that is connected to only one branch with other nodes. Specifically, the
+root node is not a leaf node.
+Obviously, for each leaf node, the main branch from the root to it is uniquely determined.
+Jiangqiao can cast magic. Each spell can choose a leaf node and arbitrarily change the cherry types
+and the number of types on that node (including making it cherry-free).
+He wants to know, for each node 1, 2, ..., n serving as the root, the minimum number of spells needed
+so that the set of cherry types on every main branch is the same.
+
+Input
+The first line contains two integers n and m (2 ≤ n ≤ 2 × 105 , 1 ≤ m ≤ 6) — the number of nodes and
+the number of cherry types.
+Each of the next n − 1 lines contains two integers ui and vi (1 ≤ ui , vi ≤ n, ui ̸= vi ) — a branch on the
+tree.
+Each of the next n lines describes a node. The i-th of these lines starts with a non-negative integer ki
+(0 ≤ ki ≤ m) — the number of cherry types at node i. If ki > 0, it is followed by ki distinct integers
+ti,1 , ti,2 , . . . , ti,ki (1 ≤ ti,j ≤ m) — the cherry types.
+It is guaranteed that all nodes are connected by the branches.
+
+Output
+A single line containing n non-negative integers, where the i-th integer is the answer when node i is the
+root.
+
+
+
+
+                                                  Page 1 of 2
+Example
+          standard input                 standard output
+5 2                         1 1 0 1 1
+1 2
+2 3
+2 4
+4 5
+1 1
+1 1
+2 1 2
+0
+1 1
+
+
+
+
+                           Page 2 of 2
+

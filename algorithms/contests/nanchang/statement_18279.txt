@@ -1,0 +1,41 @@
+BABA BOOEY
+     Input file:            standard input
+     Output file:           standard output
+     Time limit:            2 seconds
+     Memory limit:          1024 megabytes
+
+Alice and Bob take turns playing a game, with Alice going first. Before the first move, there is an array of
+non-negative integers a1 , a2 , · · · , an of length n, along with a positive integer k. In each move, the current
+player chooses two integers x, y such that 0 ≤ x ≤ k, 1 ≤ y ≤ n, and x ≤ ay . Then, k is updated to x, and
+ay is updated to ay − x. A player who chooses x = 0 loses immediately. Who has the winning strategy?
+
+Input
+There are multiple test cases. The first line contains an integer t (1 ≤ t ≤ 105 ) — the number of test cases.
+For each test case:
+The first line contains two integers n and k (1 ≤ n ≤ 106 , 1 ≤ k ≤ 109 ).
+The second line contains n integers a1 , a2 , . . . , an (0 ≤ ai ≤ 109 ).
+It is guaranteed that the sum of n over all test cases in a single input file does not exceed 2 × 106 .
+
+Output
+For each test case, output a single string on a new line.
+If the first player (Alice) has a winning strategy for the game described, output “Alice”; otherwise, output
+“Bob”.
+
+Example
+             standard input                                           standard output
+ 3                                                     Alice
+ 2 2                                                   Alice
+ 1 2                                                   Bob
+ 4 5
+ 15 15 8 9
+ 11 2
+ 4 2 9 12 0 15 9 14 5 6 12
+
+Note
+In the first test case, the only winning first moves for Alice are (x, y) = (1, 1) and (x, y) = (1, 2).
+
+
+
+
+                                                     Page 1 of 1
+

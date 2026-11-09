@@ -1,0 +1,511 @@
+﻿source,destination,reason
+AcWing/on_off_pro.cpp,basics/drafts/legacy/AcWing/on_off_pro.cpp,复核实现内容后归类：basics/drafts
+AcWing/quickmi.cpp,algorithms/number-theory/legacy/AcWing/quickmi.cpp,数论、位运算或组合数
+AcWing/slowcheng.cpp,algorithms/number-theory/legacy/AcWing/slowcheng.cpp,数论、位运算或组合数
+class/puji/Main.cc,data-structures/stacks/legacy/class/puji/Main.cc,复核实现内容后归类：data-structures/stacks
+class/puji/bool.cpp,data-structures/stacks/legacy/class/puji/bool.cpp,栈结构或栈练习
+class/puji/check.cpp,data-structures/stacks/legacy/class/puji/check.cpp,栈结构或栈练习
+class/puji/score.cpp,basics/arrays-and-simulation/legacy/class/puji/score.cpp,复核实现内容后归类：basics/arrays-and-simulation
+class/puji/stack.cpp,data-structures/stacks/legacy/class/puji/stack.cpp,栈结构或栈练习
+class/puji/t1.cpp,basics/arrays-and-simulation/legacy/class/puji/t1.cpp,复核实现内容后归类：basics/arrays-and-simulation
+class/puji/test.cpp,basics/arrays-and-simulation/legacy/class/puji/test.cpp,复核实现内容后归类：basics/arrays-and-simulation
+class/suan/pm15/1220/K.cpp,basics/arrays-and-simulation/legacy/class/suan/pm15/1220/K.cpp,复核实现内容后归类：basics/arrays-and-simulation
+class/suan/pm17/100chickens.cpp,basics/syntax-and-io/legacy/class/suan/pm17/100chickens.cpp,基础表达式、输入输出或短练习
+class/suan/pm17/Annplux.cpp,algorithms/searching/dfs/legacy/class/suan/pm17/Annplux.cpp,递归搜索、回溯或枚举排列
+class/suan/pm17/insert_sort.cpp,algorithms/sorting/legacy/class/suan/pm17/insert_sort.cpp,排序算法实现
+class/suan/pm17/jielong.cpp,algorithms/searching/dfs/legacy/class/suan/pm17/jielong.cpp,递归搜索、回溯或枚举排列
+class/suan/pm17/quicksort.cpp,algorithms/sorting/legacy/class/suan/pm17/quicksort.cpp,排序算法实现
+class/suan/pm17/roads.cpp,algorithms/searching/dfs/legacy/class/suan/pm17/roads.cpp,递归搜索、回溯或枚举排列
+class/suan/pm17/select_sort.cpp,algorithms/sorting/legacy/class/suan/pm17/select_sort.cpp,排序算法实现
+class/suan/pm17/st.cpp,algorithms/searching/dfs/legacy/class/suan/pm17/st.cpp,递归搜索、回溯或枚举排列
+class/suan/pm17/te.cpp,algorithms/practice/sorting-applications/legacy/class/suan/pm17/te.cpp,调用排序的题目；不据此判定为排序算法实现
+class/suan/pm17/test.cpp,algorithms/practice/sorting-applications/legacy/class/suan/pm17/test.cpp,调用排序的题目；不据此判定为排序算法实现
+class/suan/pm17/tt.cpp,algorithms/practice/sorting-applications/legacy/class/suan/pm17/tt.cpp,调用排序的题目；不据此判定为排序算法实现
+class/suan/pm17/weight.cpp,algorithms/searching/dfs/legacy/class/suan/pm17/weight.cpp,递归搜索、回溯或枚举排列
+class/suan/pm17/1220/E.cpp,algorithms/practice/sorting-applications/legacy/class/suan/pm17/1220/E.cpp,调用排序的题目；不据此判定为排序算法实现
+class/suan/pm17/1220/E2.cpp,algorithms/practice/sorting-applications/legacy/class/suan/pm17/1220/E2.cpp,调用排序的题目；不据此判定为排序算法实现
+class/suan/pm17/1220/F.cpp,algorithms/greedy/legacy/class/suan/pm17/1220/F.cpp,复核实现内容后归类：algorithms/greedy
+class/yunzhong/beibao/01-1.cpp,algorithms/dynamic-programming/legacy/class/yunzhong/beibao/01-1.cpp,背包或 dp 状态转移
+class/yunzhong/beibao/01-2.cpp,algorithms/dynamic-programming/legacy/class/yunzhong/beibao/01-2.cpp,背包或 dp 状态转移
+class/yunzhong/beibao/111.cpp,algorithms/dynamic-programming/legacy/class/yunzhong/beibao/111.cpp,背包或 dp 状态转移
+class/yunzhong/beibao/fenzu.cpp,algorithms/dynamic-programming/legacy/class/yunzhong/beibao/fenzu.cpp,背包或 dp 状态转移
+class/yunzhong/beibao/hun.cpp,algorithms/dynamic-programming/legacy/class/yunzhong/beibao/hun.cpp,背包或 dp 状态转移
+class/yunzhong/beibao/wanquan.cpp,algorithms/dynamic-programming/legacy/class/yunzhong/beibao/wanquan.cpp,背包或 dp 状态转移
+class/yunzhong/erfen/guess.cpp,algorithms/searching/binary-search/legacy/class/yunzhong/erfen/guess.cpp,二分区间缩小/查找
+class/yunzhong/fenzhi/find-1.cpp,algorithms/searching/binary-search/legacy/class/yunzhong/fenzhi/find-1.cpp,二分区间缩小/查找
+class/yunzhong/fenzhi/find-2.cpp,algorithms/sorting/legacy/class/yunzhong/fenzhi/find-2.cpp,排序算法实现
+class/yunzhong/fenzhi/msort.cpp,algorithms/sorting/legacy/class/yunzhong/fenzhi/msort.cpp,排序算法实现
+class/yunzhong/fenzhi/qsort.cpp,algorithms/sorting/legacy/class/yunzhong/fenzhi/qsort.cpp,排序算法实现
+class/yunzhong/fenzhi/test.cpp,algorithms/searching/dfs/legacy/class/yunzhong/fenzhi/test.cpp,递归搜索、回溯或枚举排列
+class/yunzhong/kuansou/catch.cpp,algorithms/searching/bfs/legacy/class/yunzhong/kuansou/catch.cpp,队列搜索/BFS 实现
+class/yunzhong/kuansou/migong.cpp,algorithms/searching/bfs/legacy/class/yunzhong/kuansou/migong.cpp,队列搜索/BFS 实现
+class/yunzhong/kuansou/t.cpp,basics/syntax-and-io/legacy/class/yunzhong/kuansou/t.cpp,基础表达式、输入输出或短练习
+class/yunzhong/kuansou/test.cpp,basics/number-systems/legacy/class/yunzhong/kuansou/test.cpp,复核实现内容后归类：basics/number-systems
+class/yunzhong/shensou/migong.cpp,algorithms/searching/dfs/legacy/class/yunzhong/shensou/migong.cpp,递归搜索、回溯或枚举排列
+class/yunzhong/shensou/queen.cpp,algorithms/searching/dfs/legacy/class/yunzhong/shensou/queen.cpp,递归搜索、回溯或枚举排列
+class/yunzhong/shensou/test.cpp,algorithms/searching/dfs/legacy/class/yunzhong/shensou/test.cpp,递归搜索、回溯或枚举排列
+class/yunzhong/shulun/2-biao.cpp,algorithms/number-theory/legacy/class/yunzhong/shulun/2-biao.cpp,数论、位运算或组合数
+class/yunzhong/shulun/lowbit.cpp,algorithms/number-theory/legacy/class/yunzhong/shulun/lowbit.cpp,数论、位运算或组合数
+class/yunzhong/shulun/test.cpp,algorithms/searching/dfs/legacy/class/yunzhong/shulun/test.cpp,复核实现内容后归类：algorithms/searching/dfs
+class/zhangtong/test.cpp,basics/strings/legacy/class/zhangtong/test.cpp,复核实现内容后归类：basics/strings
+class/zhengchu/Cnm.cpp,algorithms/number-theory/legacy/class/zhengchu/Cnm.cpp,数论、位运算或组合数
+class/zhengchu/test.cpp,algorithms/number-theory/legacy/class/zhengchu/test.cpp,复核实现内容后归类：algorithms/number-theory
+NanChang/BABA BOOEY.cpp,algorithms/contests/nanchang/BABA BOOEY.cpp,南昌比赛题面与解答；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+NanChang/Critical Perfect.cpp,algorithms/contests/nanchang/Critical Perfect.cpp,南昌比赛题面与解答；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+NanChang/Eating Cherries.cpp,algorithms/contests/nanchang/Eating Cherries.cpp,南昌比赛题面与解答；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+NanChang/Gotta Go Fast.cpp,algorithms/contests/nanchang/Gotta Go Fast.cpp,南昌比赛题面与解答；内容标签：背包或 dp 状态转移
+NanChang/Journey of GCD.cpp,algorithms/contests/nanchang/Journey of GCD.cpp,南昌比赛题面与解答；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+NanChang/Kingdam of Construction.cpp,algorithms/contests/nanchang/Kingdam of Construction.cpp,南昌比赛题面与解答；内容标签：队列搜索/BFS 实现
+NanChang/Legacy Code.cpp,algorithms/contests/nanchang/Legacy Code.cpp,南昌比赛题面与解答；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+NanChang/Little Z's Function.cpp,algorithms/contests/nanchang/Little Z's Function.cpp,南昌比赛题面与解答；内容标签：二分区间缩小/查找
+NanChang/One Touch Drawing.cpp,algorithms/contests/nanchang/One Touch Drawing.cpp,南昌比赛题面与解答；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+NanChang/The Difficulty of Marathon.cpp,algorithms/contests/nanchang/The Difficulty of Marathon.cpp,南昌比赛题面与解答；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+NanChang/The Meaning of the World.cpp,algorithms/contests/nanchang/The Meaning of the World.cpp,南昌比赛题面与解答；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+NanChang/Tourist.cpp,algorithms/contests/nanchang/Tourist.cpp,南昌比赛题面与解答；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+NanChang/UNO.cpp,algorithms/contests/nanchang/UNO.cpp,南昌比赛题面与解答；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+practice/kmp/kmp.cpp,algorithms/strings/legacy/practice/kmp/kmp.cpp,KMP/前缀匹配实现
+practice/xian_xing_biao/Main.cpp,data-structures/linear-lists/legacy/practice/xian_xing_biao/Main.cpp,线性表练习及配套数据
+practice/xian_xing_biao/deta.cpp,data-structures/linear-lists/legacy/practice/xian_xing_biao/deta.cpp,线性表练习及配套数据
+programs/T4.cpp,algorithms/searching/dfs/legacy/programs/T4.cpp,递归搜索、回溯或枚举排列
+programs/T5.cpp,algorithms/dynamic-programming/legacy/programs/T5.cpp,背包或 dp 状态转移
+programs/binary_tree.cpp,basics/drafts/legacy/programs/binary_tree.cpp,空白或仅含注释的历史草稿
+programs/sleep_record.cpp,basics/arrays-and-simulation/legacy/programs/sleep_record.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/0720_pm/T1.cpp,algorithms/practice/review/legacy/programs/0720_pm/T1.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/0720_pm/T1_2.cpp,algorithms/greedy/legacy/programs/0720_pm/T1_2.cpp,复核实现内容后归类：algorithms/greedy
+programs/0720_pm/T2.cpp,algorithms/practice/review/legacy/programs/0720_pm/T2.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/0720_pm/T2_2.cpp,algorithms/practice/review/legacy/programs/0720_pm/T2_2.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/0720_pm/T3.cpp,algorithms/practice/review/legacy/programs/0720_pm/T3.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/0720_pm/T3_2.cpp,algorithms/practice/review/legacy/programs/0720_pm/T3_2.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/0720_pm/T3_3_czr.cpp,algorithms/practice/review/legacy/programs/0720_pm/T3_3_czr.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/0722_am/T1.cpp,basics/arrays-and-simulation/legacy/programs/0722_am/T1.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/0722_am/T2.cpp,algorithms/practice/review/legacy/programs/0722_am/T2.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/0722_am/T3.cpp,algorithms/practice/review/legacy/programs/0722_am/T3.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/0722_am/T4.cpp,basics/arrays-and-simulation/legacy/programs/0722_am/T4.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/0722_am/T6.cpp,basics/arrays-and-simulation/legacy/programs/0722_am/T6.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/0722_am/T7.cpp,data-structures/heaps/legacy/programs/0722_am/T7.cpp,堆/优先队列应用
+programs/0722_am/T7_2.cpp,algorithms/practice/sorting-applications/legacy/programs/0722_am/T7_2.cpp,调用排序的题目；不据此判定为排序算法实现
+programs/0722_am/test.cpp,basics/arrays-and-simulation/legacy/programs/0722_am/test.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/0723/T2.cpp,algorithms/searching/bfs/legacy/programs/0723/T2.cpp,队列搜索/BFS 实现
+programs/0723/T3.cpp,algorithms/practice/review/legacy/programs/0723/T3.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/0723/T5.cpp,data-structures/linked-lists/legacy/programs/0723/T5.cpp,结点与 next 指针操作
+programs/0723/depth_and_width.cpp,data-structures/trees/legacy/programs/0723/depth_and_width.cpp,二叉树遍历、深度或重建
+programs/0723/mid_last_to_first.cpp,data-structures/trees/legacy/programs/0723/mid_last_to_first.cpp,二叉树遍历、深度或重建
+programs/0723/pointer.cpp,basics/syntax-and-io/legacy/programs/0723/pointer.cpp,基础表达式、输入输出或短练习
+programs/0723/pointer2.cpp,data-structures/linked-lists/legacy/programs/0723/pointer2.cpp,结点与 next 指针操作
+programs/0723/search_all.cpp,algorithms/practice/review/legacy/programs/0723/search_all.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/0723/toys_l.cpp,basics/arrays-and-simulation/legacy/programs/0723/toys_l.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/0723/tree.cpp,basics/drafts/legacy/programs/0723/tree.cpp,空白或仅含注释的历史草稿
+programs/0724/T1.cpp,basics/drafts/legacy/programs/0724/T1.cpp,复核实现内容后归类：basics/drafts
+programs/0724/char_binary.cpp,basics/arrays-and-simulation/legacy/programs/0724/char_binary.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/0724/depth.cpp,data-structures/trees/legacy/programs/0724/depth.cpp,二叉树遍历、深度或重建
+programs/0724/first_mid_to_last.cpp,data-structures/trees/legacy/programs/0724/first_mid_to_last.cpp,二叉树遍历、深度或重建
+programs/0724/match.cpp,data-structures/trees/legacy/programs/0724/match.cpp,二叉树遍历、深度或重建
+programs/0724/new.cpp,data-structures/trees/legacy/programs/0724/new.cpp,二叉树遍历、深度或重建
+programs/0724/test.cpp,basics/syntax-and-io/legacy/programs/0724/test.cpp,基础表达式、输入输出或短练习
+programs/0725/bingchaji.cpp,data-structures/disjoint-set/legacy/programs/0725/bingchaji.cpp,父结点数组与集合查找
+programs/hdu/gcd.cpp,algorithms/number-theory/legacy/programs/hdu/gcd.cpp,数论、位运算或组合数
+programs/solution/10to-B.cpp,basics/number-systems/legacy/programs/solution/10to-B.cpp,复核实现内容后归类：basics/number-systems
+programs/solution/2hours.cpp,basics/syntax-and-io/legacy/programs/solution/2hours.cpp,基础表达式、输入输出或短练习
+programs/solution/2to10.cpp,basics/number-systems/legacy/programs/solution/2to10.cpp,复核实现内容后归类：basics/number-systems
+programs/solution/4_1.cpp,algorithms/sorting/legacy/programs/solution/4_1.cpp,排序算法实现
+programs/solution/4_2.cpp,algorithms/recursion/legacy/programs/solution/4_2.cpp,复核实现内容后归类：algorithms/recursion
+programs/solution/5zhengchu.cpp,basics/syntax-and-io/legacy/programs/solution/5zhengchu.cpp,基础表达式、输入输出或短练习
+programs/solution/A-B.cpp,algorithms/practice/sorting-applications/legacy/programs/solution/A-B.cpp,调用排序的题目；不据此判定为排序算法实现
+programs/solution/Anm.cpp,algorithms/searching/dfs/legacy/programs/solution/Anm.cpp,递归搜索、回溯或枚举排列
+programs/solution/Ann.cpp,algorithms/searching/dfs/legacy/programs/solution/Ann.cpp,递归搜索、回溯或枚举排列
+programs/solution/AtoB.cpp,basics/number-systems/legacy/programs/solution/AtoB.cpp,复核实现内容后归类：basics/number-systems
+programs/solution/F.cpp,algorithms/practice/review/legacy/programs/solution/F.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/solution/J_T.cpp,algorithms/practice/review/legacy/programs/solution/J_T.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/solution/L.cpp,algorithms/practice/review/legacy/programs/solution/L.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/solution/Main.cc,basics/syntax-and-io/legacy/programs/solution/Main.cc,基础表达式、输入输出或短练习
+programs/solution/OS_versions.cpp,basics/arrays-and-simulation/legacy/programs/solution/OS_versions.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/solution/The_Odd_One_Out.cpp,basics/strings/legacy/programs/solution/The_Odd_One_Out.cpp,复核实现内容后归类：basics/strings
+programs/solution/Watermelon.cpp,basics/syntax-and-io/legacy/programs/solution/Watermelon.cpp,基础表达式、输入输出或短练习
+programs/solution/Way-Too-Long-Words.cpp,basics/strings/legacy/programs/solution/Way-Too-Long-Words.cpp,复核实现内容后归类：basics/strings
+programs/solution/activities.cpp,basics/arrays-and-simulation/legacy/programs/solution/activities.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/solution/ant.cpp,algorithms/sorting/legacy/programs/solution/ant.cpp,排序算法实现
+programs/solution/backji.cpp,basics/strings/legacy/programs/solution/backji.cpp,复核实现内容后归类：basics/strings
+programs/solution/bags.cpp,basics/drafts/legacy/programs/solution/bags.cpp,空白或仅含注释的历史草稿
+programs/solution/bigben.cpp,algorithms/practice/review/legacy/programs/solution/bigben.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/solution/bin_float.cpp,basics/number-systems/legacy/programs/solution/bin_float.cpp,复核实现内容后归类：basics/number-systems
+programs/solution/calculate.cpp,data-structures/stacks/legacy/programs/solution/calculate.cpp,栈结构或栈练习
+programs/solution/card.cpp,algorithms/practice/review/legacy/programs/solution/card.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/solution/chaifen.cpp,algorithms/searching/dfs/legacy/programs/solution/chaifen.cpp,递归搜索、回溯或枚举排列
+programs/solution/change.cpp,basics/strings/legacy/programs/solution/change.cpp,复核实现内容后归类：basics/strings
+programs/solution/chengfa.cpp,basics/arrays-and-simulation/legacy/programs/solution/chengfa.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/solution/coins.cpp,basics/syntax-and-io/legacy/programs/solution/coins.cpp,基础表达式、输入输出或短练习
+programs/solution/de.cpp,algorithms/recursion/legacy/programs/solution/de.cpp,复核实现内容后归类：algorithms/recursion
+programs/solution/del.cpp,algorithms/greedy/legacy/programs/solution/del.cpp,复核实现内容后归类：algorithms/greedy
+programs/solution/deta.cpp,algorithms/practice/data-generation/legacy/programs/solution/deta.cpp,复核实现内容后归类：algorithms/practice/data-generation
+programs/solution/devide.cpp,basics/syntax-and-io/legacy/programs/solution/devide.cpp,基础表达式、输入输出或短练习
+programs/solution/devide_factor.cpp,algorithms/number-theory/legacy/programs/solution/devide_factor.cpp,数论、位运算或组合数
+programs/solution/devidesu.cpp,algorithms/number-theory/legacy/programs/solution/devidesu.cpp,数论、位运算或组合数
+programs/solution/dipro.cpp,basics/drafts/legacy/programs/solution/dipro.cpp,空白或仅含注释的历史草稿
+programs/solution/eyes.cpp,algorithms/practice/review/legacy/programs/solution/eyes.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/solution/false.cpp,algorithms/sorting/legacy/programs/solution/false.cpp,复核实现内容后归类：algorithms/sorting
+programs/solution/fire.cpp,algorithms/practice/sorting-applications/legacy/programs/solution/fire.cpp,调用排序的题目；不据此判定为排序算法实现
+programs/solution/gjc-1.cpp,algorithms/high-precision/legacy/programs/solution/gjc-1.cpp,高精度四则运算系列
+programs/solution/gjc-2.cpp,algorithms/high-precision/legacy/programs/solution/gjc-2.cpp,高精度四则运算系列
+programs/solution/gjchu-1.cpp,algorithms/high-precision/legacy/programs/solution/gjchu-1.cpp,高精度四则运算系列
+programs/solution/gjchu-2.cpp,algorithms/high-precision/legacy/programs/solution/gjchu-2.cpp,高精度四则运算系列
+programs/solution/gjj.cpp,algorithms/high-precision/legacy/programs/solution/gjj.cpp,高精度四则运算系列
+programs/solution/gjjian.cpp,algorithms/high-precision/legacy/programs/solution/gjjian.cpp,高精度四则运算系列
+programs/solution/heart.cpp,basics/graphics/legacy/programs/solution/heart.cpp,复核实现内容后归类：basics/graphics
+programs/solution/heepsort.cpp,data-structures/heaps/legacy/programs/solution/heepsort.cpp,堆/优先队列应用
+programs/solution/jiaohu.cpp,algorithms/sorting/legacy/programs/solution/jiaohu.cpp,复核实现内容后归类：algorithms/sorting
+programs/solution/judge.cpp,algorithms/recursion/legacy/programs/solution/judge.cpp,复核实现内容后归类：algorithms/recursion
+programs/solution/kind.cpp,basics/arrays-and-simulation/legacy/programs/solution/kind.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/solution/lowbit.cpp,algorithms/number-theory/legacy/programs/solution/lowbit.cpp,数论、位运算或组合数
+programs/solution/maxdi.cpp,algorithms/number-theory/legacy/programs/solution/maxdi.cpp,复核实现内容后归类：algorithms/number-theory
+programs/solution/maxziduan.cpp,algorithms/dynamic-programming/legacy/programs/solution/maxziduan.cpp,复核实现内容后归类：algorithms/dynamic-programming
+programs/solution/menandgod.cpp,basics/syntax-and-io/legacy/programs/solution/menandgod.cpp,基础表达式、输入输出或短练习
+programs/solution/migong_BFS.cpp,algorithms/searching/bfs/legacy/programs/solution/migong_BFS.cpp,队列搜索/BFS 实现
+programs/solution/mod.cpp,algorithms/number-theory/legacy/programs/solution/mod.cpp,数论、位运算或组合数
+programs/solution/my_eyes.cpp,algorithms/practice/data-generation/legacy/programs/solution/my_eyes.cpp,复核实现内容后归类：algorithms/practice/data-generation
+programs/solution/numbers.cpp,basics/number-systems/legacy/programs/solution/numbers.cpp,复核实现内容后归类：basics/number-systems
+programs/solution/ocd.cpp,basics/strings/legacy/programs/solution/ocd.cpp,复核实现内容后归类：basics/strings
+programs/solution/oula_order.cpp,algorithms/searching/dfs/legacy/programs/solution/oula_order.cpp,递归搜索、回溯或枚举排列
+programs/solution/package.cpp,basics/drafts/legacy/programs/solution/package.cpp,空白或仅含注释的历史草稿
+programs/solution/palindrome.cpp,basics/syntax-and-io/legacy/programs/solution/palindrome.cpp,基础表达式、输入输出或短练习
+programs/solution/reminder.cpp,basics/arrays-and-simulation/legacy/programs/solution/reminder.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/solution/sb.cpp,basics/syntax-and-io/legacy/programs/solution/sb.cpp,基础表达式、输入输出或短练习
+programs/solution/shenle.cpp,algorithms/practice/review/legacy/programs/solution/shenle.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/solution/shuixianhua.cpp,basics/arrays-and-simulation/legacy/programs/solution/shuixianhua.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/solution/stack.cpp,data-structures/stacks/legacy/programs/solution/stack.cpp,栈结构或栈练习
+programs/solution/sudoku.cpp,basics/syntax-and-io/legacy/programs/solution/sudoku.cpp,基础表达式、输入输出或短练习
+programs/solution/test.cpp,algorithms/greedy/legacy/programs/solution/test.cpp,复核实现内容后归类：algorithms/greedy
+programs/solution/test3.cpp,algorithms/recursion/legacy/programs/solution/test3.cpp,复核实现内容后归类：algorithms/recursion
+programs/solution/toy.cpp,basics/arrays-and-simulation/legacy/programs/solution/toy.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/solution/toys.cpp,basics/arrays-and-simulation/legacy/programs/solution/toys.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/solution/tt.cpp,algorithms/practice/data-generation/legacy/programs/solution/tt.cpp,复核实现内容后归类：algorithms/practice/data-generation
+programs/solution/ttt.cpp,basics/drafts/legacy/programs/solution/ttt.cpp,空白或仅含注释的历史草稿
+programs/solution/water.cpp,algorithms/searching/bfs/legacy/programs/solution/water.cpp,队列搜索/BFS 实现
+programs/solution/zhishu.cpp,algorithms/number-theory/legacy/programs/solution/zhishu.cpp,数论、位运算或组合数
+programs/solution/zifuchuan.cpp,basics/strings/legacy/programs/solution/zifuchuan.cpp,复核实现内容后归类：basics/strings
+programs/test/666.cpp,basics/strings/legacy/programs/test/666.cpp,复核实现内容后归类：basics/strings
+programs/test/AImain.cpp,basics/strings/legacy/programs/test/AImain.cpp,复核实现内容后归类：basics/strings
+programs/test/PTA.cpp,basics/syntax-and-io/legacy/programs/test/PTA.cpp,基础表达式、输入输出或短练习
+programs/test/chess.cpp,algorithms/practice/review/legacy/programs/test/chess.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/test/clock.cpp,basics/strings/legacy/programs/test/clock.cpp,复核实现内容后归类：basics/strings
+programs/test/fish_or_meat.cpp,basics/arrays-and-simulation/legacy/programs/test/fish_or_meat.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/test/joseph.cpp,algorithms/searching/bfs/legacy/programs/test/joseph.cpp,队列搜索/BFS 实现
+programs/test/kingdom.cpp,algorithms/practice/review/legacy/programs/test/kingdom.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/test/lucky.cpp,basics/arrays-and-simulation/legacy/programs/test/lucky.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/test/max_cumt.cpp,algorithms/practice/review/legacy/programs/test/max_cumt.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/test/rainstar.cpp,algorithms/searching/bfs/legacy/programs/test/rainstar.cpp,队列搜索/BFS 实现
+programs/test/rainstar2.cpp,algorithms/searching/bfs/legacy/programs/test/rainstar2.cpp,队列搜索/BFS 实现
+programs/test/shadow.cpp,basics/arrays-and-simulation/legacy/programs/test/shadow.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/test/sweets.cpp,basics/arrays-and-simulation/legacy/programs/test/sweets.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/test/1-24/1-1.cpp,basics/syntax-and-io/legacy/programs/test/1-24/1-1.cpp,基础表达式、输入输出或短练习
+programs/test/1-24/1-2.cpp,basics/arrays-and-simulation/legacy/programs/test/1-24/1-2.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/test/1-24/1-4.cpp,basics/arrays-and-simulation/legacy/programs/test/1-24/1-4.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/test/1-24/1-6.cpp,basics/arrays-and-simulation/legacy/programs/test/1-24/1-6.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/test/1-24/1-7.cpp,basics/arrays-and-simulation/legacy/programs/test/1-24/1-7.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/test/4-18/L1-8.cpp,algorithms/practice/review/legacy/programs/test/4-18/L1-8.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/test/4-18/L2-1.cpp,algorithms/practice/review/legacy/programs/test/4-18/L2-1.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/test/4-18/L2-2.cpp,algorithms/practice/review/legacy/programs/test/4-18/L2-2.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/04/question01_digit_count.cpp,coursework/university/04/question01_digit_count.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/04/question02_student_scores.cpp,coursework/university/04/question02_student_scores.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/04/question03_saddle_point.cpp,coursework/university/04/question03_saddle_point.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/06/question01_day_of_year.cpp,coursework/university/06/question01_day_of_year.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/06/question02_vote_count.cpp,coursework/university/06/question02_vote_count.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/07/question01_date_class.cpp,coursework/university/07/question01_date_class.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/07/question02_triangle_class.cpp,coursework/university/07/question02_triangle_class.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/08/1.cpp,coursework/university/08/1.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/08/question01_point_distance.cpp,coursework/university/08/question01_point_distance.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/08/question01_point_distance_chaoxing.cpp,coursework/university/08/question01_point_distance_chaoxing.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/08/question02_score_class.cpp,coursework/university/08/question02_score_class.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/08/question02_score_class_chaoxing.cpp,coursework/university/08/question02_score_class_chaoxing.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/09/question01_employee.cpp,coursework/university/09/question01_employee.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/09/question01_employee_chaoxing.cpp,coursework/university/09/question01_employee_chaoxing.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/10/question01_fruit_shop.cpp,coursework/university/10/question01_fruit_shop.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/10/question01_fruit_shop_chaoxing.cpp,coursework/university/10/question01_fruit_shop_chaoxing.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1236/A.cpp,coursework/university/contest1236/A.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1236/A_new_friends.cpp,coursework/university/contest1236/A_new_friends.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1236/B_coprime.cpp,coursework/university/contest1236/B_coprime.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1236/C_josephus.cpp,coursework/university/contest1236/C_josephus.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1236/D_base_conversion.cpp,coursework/university/contest1236/D_base_conversion.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1236/E_sum_expression.cpp,coursework/university/contest1236/E_sum_expression.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1236/F_polish_expression.cpp,coursework/university/contest1236/F_polish_expression.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1236/G_merge_queues.cpp,coursework/university/contest1236/G_merge_queues.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1240/A.cpp,coursework/university/contest1240/A.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1240/A_find_score.cpp,coursework/university/contest1240/A_find_score.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1240/B_insert_data.cpp,coursework/university/contest1240/B_insert_data.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1240/C_two_way_merge.cpp,coursework/university/contest1240/C_two_way_merge.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1240/D_max_count.cpp,coursework/university/contest1240/D_max_count.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1240/E_joseph_sequence.cpp,coursework/university/contest1240/E_joseph_sequence.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1240/F_bracket_match.cpp,coursework/university/contest1240/F_bracket_match.cpp,大学课程作业与配套资料；内容标签：栈结构或栈练习
+school/contest1240/G_postfix_expression.cpp,coursework/university/contest1240/G_postfix_expression.cpp,大学课程作业与配套资料；内容标签：栈结构或栈练习
+school/contest1240/H_reverse_words.cpp,coursework/university/contest1240/H_reverse_words.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1241/A.cpp,coursework/university/contest1241/A.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1241/B.cpp,coursework/university/contest1241/B.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1241/C.cpp,coursework/university/contest1241/C.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1241/D.cpp,coursework/university/contest1241/D.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1241/E.cpp,coursework/university/contest1241/E.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1241/F.cpp,coursework/university/contest1241/F.cpp,大学课程作业与配套资料；内容标签：队列搜索/BFS 实现
+school/contest1248/A.cpp,coursework/university/contest1248/A.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1248/B.cpp,coursework/university/contest1248/B.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1248/C.cpp,coursework/university/contest1248/C.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1248/D.cpp,coursework/university/contest1248/D.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1248/E.cpp,coursework/university/contest1248/E.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1248/F.cpp,coursework/university/contest1248/F.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1248/G.cpp,coursework/university/contest1248/G.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1252/A_binary_tree.cpp,coursework/university/contest1252/A_binary_tree.cpp,大学课程作业与配套资料；内容标签：栈结构或栈练习
+school/contest1252/B_huffman_tree.cpp,coursework/university/contest1252/B_huffman_tree.cpp,大学课程作业与配套资料；内容标签：堆/优先队列应用
+school/contest1252/C_tree_traversal.cpp,coursework/university/contest1252/C_tree_traversal.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/contest1252/D_shortest_path.cpp,coursework/university/contest1252/D_shortest_path.cpp,大学课程作业与配套资料；内容标签：堆/优先队列应用
+school/contest1252/E_minimum_spanning_tree.cpp,coursework/university/contest1252/E_minimum_spanning_tree.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience07/question01_shape_perimeter_sort.cpp,coursework/university/experience07/question01_shape_perimeter_sort.cpp,大学课程作业与配套资料；内容标签：调用排序的题目；不据此判定为排序算法实现
+school/experience07/question02_shape_area_sort.cpp,coursework/university/experience07/question02_shape_area_sort.cpp,大学课程作业与配套资料；内容标签：调用排序的题目；不据此判定为排序算法实现
+school/experience07/question03_simpson_x_squared.cpp,coursework/university/experience07/question03_simpson_x_squared.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience07/question04_abstract_simpson.cpp,coursework/university/experience07/question04_abstract_simpson.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience07/question05_polynomial_multiply.cpp,coursework/university/experience07/question05_polynomial_multiply.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience07/question06_polynomial_subtract.cpp,coursework/university/experience07/question06_polynomial_subtract.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience07/question07_polynomial_add.cpp,coursework/university/experience07/question07_polynomial_add.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience07/question08_natural_constant_e.cpp,coursework/university/experience07/question08_natural_constant_e.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question01_base_conversion.cpp,coursework/university/experience4/question01_base_conversion.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question01_character_frequency.cpp,coursework/university/experience4/question01_character_frequency.cpp,大学课程作业与配套资料；内容标签：调用排序的题目；不据此判定为排序算法实现
+school/experience4/question02_icpc_participants.cpp,coursework/university/experience4/question02_icpc_participants.cpp,大学课程作业与配套资料；内容标签：递归搜索、回溯或枚举排列
+school/experience4/question02_pascal_triangle.cpp,coursework/university/experience4/question02_pascal_triangle.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question03_median_mean.cpp,coursework/university/experience4/question03_median_mean.cpp,大学课程作业与配套资料；内容标签：调用排序的题目；不据此判定为排序算法实现
+school/experience4/question03_palindrome_basis.cpp,coursework/university/experience4/question03_palindrome_basis.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question04_coprime_count.cpp,coursework/university/experience4/question04_coprime_count.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question04_selection_sort.cpp,coursework/university/experience4/question04_selection_sort.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question05_array_extremes.cpp,coursework/university/experience4/question05_array_extremes.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question05_weekday.cpp,coursework/university/experience4/question05_weekday.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question06_triangle.cpp,coursework/university/experience4/question06_triangle.cpp,大学课程作业与配套资料；内容标签：调用排序的题目；不据此判定为排序算法实现
+school/experience4/question06_weekday.cpp,coursework/university/experience4/question06_weekday.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question07_newton_sqrt.cpp,coursework/university/experience4/question07_newton_sqrt.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question07_permutation.cpp,coursework/university/experience4/question07_permutation.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question08_bubble_sort.cpp,coursework/university/experience4/question08_bubble_sort.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question08_multiplication_table.cpp,coursework/university/experience4/question08_multiplication_table.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question09_sieve_primes.cpp,coursework/university/experience4/question09_sieve_primes.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question09_trigonometric.cpp,coursework/university/experience4/question09_trigonometric.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question10_date_compare.cpp,coursework/university/experience4/question10_date_compare.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience4/question10_saddle_point.cpp,coursework/university/experience4/question10_saddle_point.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience5/question01_character_frequency.cpp,coursework/university/experience5/question01_character_frequency.cpp,大学课程作业与配套资料；内容标签：调用排序的题目；不据此判定为排序算法实现
+school/experience5/question02_pascal_triangle.cpp,coursework/university/experience5/question02_pascal_triangle.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience5/question03_median_mean.cpp,coursework/university/experience5/question03_median_mean.cpp,大学课程作业与配套资料；内容标签：调用排序的题目；不据此判定为排序算法实现
+school/experience5/question04_selection_sort.cpp,coursework/university/experience5/question04_selection_sort.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience5/question05_array_extremes.cpp,coursework/university/experience5/question05_array_extremes.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience5/question06_weekday.cpp,coursework/university/experience5/question06_weekday.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience5/question07_permutation.cpp,coursework/university/experience5/question07_permutation.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience5/question08_bubble_sort.cpp,coursework/university/experience5/question08_bubble_sort.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience5/question09_sieve_primes.cpp,coursework/university/experience5/question09_sieve_primes.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience5/question10_saddle_point.cpp,coursework/university/experience5/question10_saddle_point.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience6/1.cpp,coursework/university/experience6/1.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience6/2.cpp,coursework/university/experience6/2.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience6/3.cpp,coursework/university/experience6/3.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience6/4.cpp,coursework/university/experience6/4.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience6/5.cpp,coursework/university/experience6/5.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience6/6.cpp,coursework/university/experience6/6.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experience6/7.cpp,coursework/university/experience6/7.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experince6/question01_date_interval.cpp,coursework/university/experince6/question01_date_interval.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experince6/question02_weekday.cpp,coursework/university/experince6/question02_weekday.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experince6/question03_date_compare.cpp,coursework/university/experince6/question03_date_compare.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experince6/question04_matrix_transpose.cpp,coursework/university/experince6/question04_matrix_transpose.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experince6/question05_matrix_multiply.cpp,coursework/university/experince6/question05_matrix_multiply.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experince6/question06_determinant.cpp,coursework/university/experince6/question06_determinant.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experince6/question07_date_add.cpp,coursework/university/experince6/question07_date_add.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experince6/question08_date_sort.cpp,coursework/university/experince6/question08_date_sort.cpp,大学课程作业与配套资料；内容标签：调用排序的题目；不据此判定为排序算法实现
+school/experince6/question09_josephus.cpp,coursework/university/experince6/question09_josephus.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/experince6/question10_unique_dates.cpp,coursework/university/experince6/question10_unique_dates.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/lzw1254/A_robot_kingdom_path.cpp,coursework/university/lzw1254/A_robot_kingdom_path.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/lzw1254/B_shortest_path.cpp,coursework/university/lzw1254/B_shortest_path.cpp,大学课程作业与配套资料；内容标签：堆/优先队列应用
+school/lzw1254/C_project_minimum_days.cpp,coursework/university/lzw1254/C_project_minimum_days.cpp,大学课程作业与配套资料；内容标签：队列搜索/BFS 实现
+school/lzw1254/D_second_smallest.cpp,coursework/university/lzw1254/D_second_smallest.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/lzw1254/E_sort_by_digit_sum.cpp,coursework/university/lzw1254/E_sort_by_digit_sum.cpp,大学课程作业与配套资料；内容标签：调用排序的题目；不据此判定为排序算法实现
+school/lzw1254/F_odd_even_sort.cpp,coursework/university/lzw1254/F_odd_even_sort.cpp,大学课程作业与配套资料；内容标签：调用排序的题目；不据此判定为排序算法实现
+school/qt_ui_demo/main.cpp,coursework/university/qt_ui_demo/main.cpp,大学课程作业与配套资料；内容标签：基础表达式、输入输出或短练习
+school/qt_ui_demo/mainwindow.cpp,coursework/university/qt_ui_demo/mainwindow.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/qt_ui_demo/mainwindow.h,coursework/university/qt_ui_demo/mainwindow.h,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/tcg1242/A_dfs_undirected_graph.cpp,coursework/university/tcg1242/A_dfs_undirected_graph.cpp,大学课程作业与配套资料；内容标签：递归搜索、回溯或枚举排列
+school/tcg1242/B_build_min_heap.cpp,coursework/university/tcg1242/B_build_min_heap.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/tcg1242/C_binary_search_count.cpp,coursework/university/tcg1242/C_binary_search_count.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+school/tcg1242/D_sort_numbers.cpp,coursework/university/tcg1242/D_sort_numbers.cpp,大学课程作业与配套资料；内容标签：调用排序的题目；不据此判定为排序算法实现
+school/tcg1242/E_student_information.cpp,coursework/university/tcg1242/E_student_information.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/合并果子加强版_标程.cpp,coursework/teaching/合并果子加强版_标程.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/合并果子加强版_用户代码判空修正版.cpp,coursework/teaching/合并果子加强版_用户代码判空修正版.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/合并果子加强版_用户原代码.cpp,coursework/teaching/合并果子加强版_用户原代码.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/温室巡检.cpp,coursework/teaching/温室巡检.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/merge_fruit_near_1s_tools/gen.cpp,coursework/teaching/merge_fruit_near_1s_tools/gen.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/merge_fruit_near_1s_tools/oracle.cpp,coursework/teaching/merge_fruit_near_1s_tools/oracle.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/merge_fruit_near_1s_tools/std.cpp,coursework/teaching/merge_fruit_near_1s_tools/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/merge_fruit_near_1s_tools/validator.cpp,coursework/teaching/merge_fruit_near_1s_tools/validator.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/z-备题/A_数组元素的查找.cpp,coursework/teaching/z-备题/A_数组元素的查找.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/z-备题/B_数组元素的移动.cpp,coursework/teaching/z-备题/B_数组元素的移动.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/z-备题/C_元素插入有序数组.cpp,coursework/teaching/z-备题/C_元素插入有序数组.cpp,教学讲义、题解与测试数据；内容标签：调用排序的题目；不据此判定为排序算法实现
+teach/z-备题/D_电量焦虑.cpp,coursework/teaching/z-备题/D_电量焦虑.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/z-备题/E_逛商场.cpp,coursework/teaching/z-备题/E_逛商场.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/z-备题/F_查找支撑数.cpp,coursework/teaching/z-备题/F_查找支撑数.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/z-备题/G_山洞寻宝.cpp,coursework/teaching/z-备题/G_山洞寻宝.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/z-备题/H_不速之客.cpp,coursework/teaching/z-备题/H_不速之客.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/z-备题/I_电线上的小鸟.cpp,coursework/teaching/z-备题/I_电线上的小鸟.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/原创综合练习五题_普及减_20260814/T1_环湖巡标/mkdata.cpp,coursework/teaching/原创综合练习五题_普及减_20260814/T1_环湖巡标/mkdata.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/原创综合练习五题_普及减_20260814/T1_环湖巡标/mkin.h,coursework/teaching/原创综合练习五题_普及减_20260814/T1_环湖巡标/mkin.h,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/原创综合练习五题_普及减_20260814/T2_双色挂旗/mkdata.cpp,coursework/teaching/原创综合练习五题_普及减_20260814/T2_双色挂旗/mkdata.cpp,教学讲义、题解与测试数据；内容标签：调用排序的题目；不据此判定为排序算法实现
+teach/原创综合练习五题_普及减_20260814/T2_双色挂旗/mkin.h,coursework/teaching/原创综合练习五题_普及减_20260814/T2_双色挂旗/mkin.h,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/原创综合练习五题_普及减_20260814/T2_双色挂旗/std.cpp,coursework/teaching/原创综合练习五题_普及减_20260814/T2_双色挂旗/std.cpp,教学讲义、题解与测试数据；内容标签：调用排序的题目；不据此判定为排序算法实现
+teach/原创综合练习五题_普及减_20260814/T3_声场校准/mkdata.cpp,coursework/teaching/原创综合练习五题_普及减_20260814/T3_声场校准/mkdata.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/原创综合练习五题_普及减_20260814/T3_声场校准/mkin.h,coursework/teaching/原创综合练习五题_普及减_20260814/T3_声场校准/mkin.h,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/原创综合练习五题_普及减_20260814/T3_声场校准/std.cpp,coursework/teaching/原创综合练习五题_普及减_20260814/T3_声场校准/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/原创综合练习五题_普及减_20260814/T4_信号对消/mkdata.cpp,coursework/teaching/原创综合练习五题_普及减_20260814/T4_信号对消/mkdata.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/原创综合练习五题_普及减_20260814/T4_信号对消/mkin.h,coursework/teaching/原创综合练习五题_普及减_20260814/T4_信号对消/mkin.h,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/原创综合练习五题_普及减_20260814/T4_信号对消/std.cpp,coursework/teaching/原创综合练习五题_普及减_20260814/T4_信号对消/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/原创综合练习五题_普及减_20260814/T5_温室巡检/mkdata.cpp,coursework/teaching/原创综合练习五题_普及减_20260814/T5_温室巡检/mkdata.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/原创综合练习五题_普及减_20260814/T5_温室巡检/mkin.h,coursework/teaching/原创综合练习五题_普及减_20260814/T5_温室巡检/mkin.h,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/原创综合练习五题_普及减_20260814/T5_温室巡检/std.cpp,coursework/teaching/原创综合练习五题_普及减_20260814/T5_温室巡检/std.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/数组/A_删除元素.cpp,coursework/teaching/数组/A_删除元素.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/数组/B_数根.cpp,coursework/teaching/数组/B_数根.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/数组/C_数字方格.cpp,coursework/teaching/数组/C_数字方格.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_上传包/01_B3627_整块立方/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/01_B3627_整块立方/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_上传包/02_P2089_十味调配/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/02_P2089_十味调配/std.cpp,教学讲义、题解与测试数据；内容标签：递归搜索、回溯或枚举排列
+teach/洛谷17题_难度递增_上传包/03_P1305_枝序记录/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/03_P1305_枝序记录/std.cpp,教学讲义、题解与测试数据；内容标签：递归搜索、回溯或枚举排列
+teach/洛谷17题_难度递增_上传包/04_P1226_乘积的余数/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/04_P1226_乘积的余数/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_上传包/05_P1216_阶塔寻宝/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/05_P1216_阶塔寻宝/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_上传包/06_P1596_雨后田野/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/06_P1596_雨后田野/std.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/洛谷17题_难度递增_上传包/07_P1605_方格行程/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/07_P1605_方格行程/std.cpp,教学讲义、题解与测试数据；内容标签：递归搜索、回溯或枚举排列
+teach/洛谷17题_难度递增_上传包/08_P1443_跃步距离/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/08_P1443_跃步距离/std.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/洛谷17题_难度递增_上传包/09_P1498_叠影纹样/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/09_P1498_叠影纹样/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_上传包/10_P1162_封闭区域/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/10_P1162_封闭区域/std.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/洛谷17题_难度递增_上传包/11_P1036_素和方案/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/11_P1036_素和方案/std.cpp,教学讲义、题解与测试数据；内容标签：递归搜索、回溯或枚举排列
+teach/洛谷17题_难度递增_上传包/12_P1057_环上接力/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/12_P1057_环上接力/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_上传包/13_P1102_相差约定值/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/13_P1102_相差约定值/std.cpp,教学讲义、题解与测试数据；内容标签：调用排序的题目；不据此判定为排序算法实现
+teach/洛谷17题_难度递增_上传包/14_P1873_统一截取/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/14_P1873_统一截取/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_上传包/15_P1010_零二记法/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/15_P1010_零二记法/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_上传包/16_P1115_连续收益/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/16_P1115_连续收益/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_上传包/17_P1928_层叠讯息/std.cpp,coursework/teaching/洛谷17题_难度递增_上传包/17_P1928_层叠讯息/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_交付合集/01_B3627_整块立方/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/01_B3627_整块立方/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_交付合集/02_P2089_十味调配/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/02_P2089_十味调配/std.cpp,教学讲义、题解与测试数据；内容标签：递归搜索、回溯或枚举排列
+teach/洛谷17题_难度递增_交付合集/03_P1305_枝序记录/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/03_P1305_枝序记录/std.cpp,教学讲义、题解与测试数据；内容标签：递归搜索、回溯或枚举排列
+teach/洛谷17题_难度递增_交付合集/04_P1226_乘积的余数/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/04_P1226_乘积的余数/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_交付合集/05_P1216_阶塔寻宝/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/05_P1216_阶塔寻宝/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_交付合集/06_P1596_雨后田野/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/06_P1596_雨后田野/std.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/洛谷17题_难度递增_交付合集/07_P1605_方格行程/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/07_P1605_方格行程/std.cpp,教学讲义、题解与测试数据；内容标签：递归搜索、回溯或枚举排列
+teach/洛谷17题_难度递增_交付合集/08_P1443_跃步距离/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/08_P1443_跃步距离/std.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/洛谷17题_难度递增_交付合集/09_P1498_叠影纹样/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/09_P1498_叠影纹样/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_交付合集/10_P1162_封闭区域/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/10_P1162_封闭区域/std.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/洛谷17题_难度递增_交付合集/11_P1036_素和方案/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/11_P1036_素和方案/std.cpp,教学讲义、题解与测试数据；内容标签：递归搜索、回溯或枚举排列
+teach/洛谷17题_难度递增_交付合集/12_P1057_环上接力/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/12_P1057_环上接力/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_交付合集/13_P1102_相差约定值/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/13_P1102_相差约定值/std.cpp,教学讲义、题解与测试数据；内容标签：调用排序的题目；不据此判定为排序算法实现
+teach/洛谷17题_难度递增_交付合集/14_P1873_统一截取/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/14_P1873_统一截取/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_交付合集/15_P1010_零二记法/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/15_P1010_零二记法/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_交付合集/16_P1115_连续收益/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/16_P1115_连续收益/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/洛谷17题_难度递增_交付合集/17_P1928_层叠讯息/std.cpp,coursework/teaching/洛谷17题_难度递增_交付合集/17_P1928_层叠讯息/std.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/0／1字符串问题.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/0／1字符串问题.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/9的倍数子序列.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/9的倍数子序列.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/一元三次方程求解.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/一元三次方程求解.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/严格第k小.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/严格第k小.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/书架放书.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/书架放书.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/切蛋糕.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/切蛋糕.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/多源火焰扩散.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/多源火焰扩散.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/睢宁一中26校队-雷霆大题单/安迪的第一个字典.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/安迪的第一个字典.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/小杨寻宝.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/小杨寻宝.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/睢宁一中26校队-雷霆大题单/岛(island).cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/岛(island).cpp,教学讲义、题解与测试数据；内容标签：调用排序的题目；不据此判定为排序算法实现
+teach/睢宁一中26校队-雷霆大题单/开餐馆.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/开餐馆.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/抗议.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/抗议.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/最后一个不大于目标的位置.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/最后一个不大于目标的位置.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/最大的和.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/最大的和.cpp,教学讲义、题解与测试数据；内容标签：调用排序的题目；不据此判定为排序算法实现
+teach/睢宁一中26校队-雷霆大题单/没有上司的舞会.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/没有上司的舞会.cpp,教学讲义、题解与测试数据；内容标签：递归搜索、回溯或枚举排列
+teach/睢宁一中26校队-雷霆大题单/清除地雷.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/清除地雷.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/睢宁一中26校队-雷霆大题单/点对之和.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/点对之和.cpp,教学讲义、题解与测试数据；内容标签：调用排序的题目；不据此判定为排序算法实现
+teach/睢宁一中26校队-雷霆大题单/点菜.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/点菜.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/玉米迷宫.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/玉米迷宫.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/睢宁一中26校队-雷霆大题单/积木染色（二）.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/积木染色（二）.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/组合数取余.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/组合数取余.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/能量水晶.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/能量水晶.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/能量项链.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/能量项链.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/货币系统1.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/货币系统1.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/越野滑雪.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/越野滑雪.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/睢宁一中26校队-雷霆大题单/迷宫问题.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/迷宫问题.cpp,教学讲义、题解与测试数据；内容标签：队列搜索/BFS 实现
+teach/睢宁一中26校队-雷霆大题单/部分全排列.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/部分全排列.cpp,教学讲义、题解与测试数据；内容标签：递归搜索、回溯或枚举排列
+teach/睢宁一中26校队-雷霆大题单/金猪大家庭.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/金猪大家庭.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/长序列.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/长序列.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/青蛙过河.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/青蛙过河.cpp,教学讲义、题解与测试数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+teach/睢宁一中26校队-雷霆大题单/麦片分配.cpp,coursework/teaching/睢宁一中26校队-雷霆大题单/麦片分配.cpp,教学讲义、题解与测试数据；内容标签：父结点数组与集合查找
+tests/luogu/rumen/T1.cpp,algorithms/contests/online-judges/luogu/rumen/T1.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/luogu/rumen/T2.cpp,algorithms/contests/online-judges/luogu/rumen/T2.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/luogu/rumen/T3.cpp,algorithms/contests/online-judges/luogu/rumen/T3.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/luogu/rumen/T4.cpp,algorithms/contests/online-judges/luogu/rumen/T4.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/luogu/rumen/T5.cpp,algorithms/contests/online-judges/luogu/rumen/T5.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/luogu/rumen/T6.cpp,algorithms/contests/online-judges/luogu/rumen/T6.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/mati/1.cpp,algorithms/contests/online-judges/mati/1.cpp,在线评测练习与配套数据；内容标签：基础表达式、输入输出或短练习
+tests/mati/10.cpp,algorithms/contests/online-judges/mati/10.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/mati/2.cpp,algorithms/contests/online-judges/mati/2.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/mati/3.cpp,algorithms/contests/online-judges/mati/3.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/mati/5.cpp,algorithms/contests/online-judges/mati/5.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/mati/8.cpp,algorithms/contests/online-judges/mati/8.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/mati/0802/12.cpp,algorithms/contests/online-judges/mati/0802/12.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/mati/0802/5.cpp,algorithms/contests/online-judges/mati/0802/5.cpp,在线评测练习与配套数据；内容标签：空白或仅含注释的历史草稿
+tests/mati/0802/7.cpp,algorithms/contests/online-judges/mati/0802/7.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/mati/0802/8.cpp,algorithms/contests/online-judges/mati/0802/8.cpp,在线评测练习与配套数据；内容标签：空白或仅含注释的历史草稿
+tests/mati/0802/A.cpp,algorithms/contests/online-judges/mati/0802/A.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/mati/0802/C.cpp,algorithms/contests/online-judges/mati/0802/C.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/mati/0802/D.cpp,algorithms/contests/online-judges/mati/0802/D.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/newcoder/round103/T1.cpp,algorithms/contests/online-judges/newcoder/round103/T1.cpp,在线评测练习与配套数据；内容标签：基础表达式、输入输出或短练习
+tests/newcoder/round103/T2.cpp,algorithms/contests/online-judges/newcoder/round103/T2.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/saike/A.cpp,algorithms/contests/online-judges/saike/A.cpp,在线评测练习与配套数据；内容标签：递归搜索、回溯或枚举排列
+tests/saike/B.cpp,algorithms/contests/online-judges/saike/B.cpp,在线评测练习与配套数据；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+tests/saike/C.cpp,algorithms/contests/online-judges/saike/C.cpp,在线评测练习与配套数据；内容标签：背包或 dp 状态转移
+tests/saike/E.cpp,algorithms/contests/online-judges/saike/E.cpp,在线评测练习与配套数据；内容标签：递归搜索、回溯或枚举排列
+扬州集训/apple.cpp,coursework/training/yangzhou/apple.cpp,集训课程与配套练习；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+扬州集训/babel.cpp,coursework/training/yangzhou/babel.cpp,集训课程与配套练习；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+扬州集训/seqsum.cpp,coursework/training/yangzhou/seqsum.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/subseq.cpp,coursework/training/yangzhou/subseq.cpp,集训课程与配套练习；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+扬州集训/subseq2.cpp,coursework/training/yangzhou/subseq2.cpp,集训课程与配套练习；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+扬州集训/test.cpp,coursework/training/yangzhou/test.cpp,集训课程与配套练习；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+扬州集训/二叉树.cpp,coursework/training/yangzhou/二叉树.cpp,集训课程与配套练习；内容标签：二叉树遍历、深度或重建
+扬州集训/二叉树kimi.cpp,coursework/training/yangzhou/二叉树kimi.cpp,集训课程与配套练习；内容标签：二叉树遍历、深度或重建
+扬州集训/未命名1.cpp,coursework/training/yangzhou/未命名1.cpp,集训课程与配套练习；内容标签：基础表达式、输入输出或短练习
+扬州集训/树的深度.cpp,coursework/training/yangzhou/树的深度.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/1/未命名1.cpp,coursework/training/yangzhou/1/未命名1.cpp,集训课程与配套练习；内容标签：基础表达式、输入输出或短练习
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/ackerman.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/ackerman.cpp,集训课程与配套练习；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/catchcow（双向宽搜）.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/catchcow（双向宽搜）.cpp,集训课程与配套练习；内容标签：队列搜索/BFS 实现
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/catchcow（可行性剪枝）.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/catchcow（可行性剪枝）.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/catchcow（最优性剪枝）.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/catchcow（最优性剪枝）.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/catchcow（考虑N大于等于K）.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/catchcow（考虑N大于等于K）.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/catchcow（记忆化搜索）.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/catchcow（记忆化搜索）.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/catchcow（迭代加深）.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/catchcow（迭代加深）.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/chess.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/chess.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/eight.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/eight.cpp,集训课程与配套练习；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/maze(深搜).cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/maze(深搜).cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/maze(深搜优化）.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/maze(深搜优化）.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/maze记忆化搜索.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/maze记忆化搜索.cpp,集训课程与配套练习；内容标签：背包或 dp 状态转移
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/maze（宽搜）.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/maze（宽搜）.cpp,集训课程与配套练习；内容标签：队列搜索/BFS 实现
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/queen(bitset).cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/queen(bitset).cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/queen.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/queen.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/queen位运算.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/queen位运算.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/queen对称.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/queen对称.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/queen链表优化.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/queen链表优化.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day1/day1搜索应用及其优化/参考程序/scales.cpp,coursework/training/yangzhou/基础day1/day1搜索应用及其优化/参考程序/scales.cpp,集训课程与配套练习；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+扬州集训/基础day2/3深搜基础及其应用/上机练习/lake.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/上机练习/lake.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/上机练习/ball/ball.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/上机练习/ball/ball.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/上机练习/division/division.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/上机练习/division/division.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/上机练习/meeting/meeting.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/上机练习/meeting/meeting.cpp,集训课程与配套练习；内容标签：调用排序的题目；不据此判定为排序算法实现
+扬州集训/基础day2/3深搜基础及其应用/上机练习/素数环/素数环.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/上机练习/素数环/素数环.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/上机练习/选数/生成数据.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/上机练习/选数/生成数据.cpp,集训课程与配套练习；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+扬州集训/基础day2/3深搜基础及其应用/上机练习/选数/选数.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/上机练习/选数/选数.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/B1数水塘.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/B1数水塘.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/B1数水塘2.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/B1数水塘2.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例1全排列--去重1.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例1全排列--去重1.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例1全排列--未去重.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例1全排列--未去重.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例1全排列.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例1全排列.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例1全排列02.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例1全排列02.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例1拓展-选排列02.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例1拓展-选排列02.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例1拓展-选排列1.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例1拓展-选排列1.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例2素数环01.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例2素数环01.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例2素数环02.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例2素数环02.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例3-生成组合.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例3-生成组合.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例4素数个数.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例4素数个数.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例4素数个数2.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例4素数个数2.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例5自然数拆分.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例5自然数拆分.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例6football.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例6football.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例7八皇后解法1.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例7八皇后解法1.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例7八皇后解法2.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例7八皇后解法2.cpp,集训课程与配套练习；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+扬州集训/基础day2/3深搜基础及其应用/课例程序/例8 迷宫1.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/例8 迷宫1.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/基础day2/3深搜基础及其应用/课例程序/迷宫问题（用栈实现）.cpp,coursework/training/yangzhou/基础day2/3深搜基础及其应用/课例程序/迷宫问题（用栈实现）.cpp,集训课程与配套练习；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+扬州集训/结营测试/T1.cpp,coursework/training/yangzhou/结营测试/T1.cpp,集训课程与配套练习；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+扬州集训/结营测试/T2.cpp,coursework/training/yangzhou/结营测试/T2.cpp,集训课程与配套练习；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+扬州集训/结营测试/T3-2.cpp,coursework/training/yangzhou/结营测试/T3-2.cpp,集训课程与配套练习；内容标签：递归搜索、回溯或枚举排列
+扬州集训/结营测试/T3.cpp,coursework/training/yangzhou/结营测试/T3.cpp,集训课程与配套练习；内容标签：堆/优先队列应用
+扬州集训/结营测试/T4.cpp,coursework/training/yangzhou/结营测试/T4.cpp,集训课程与配套练习；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核

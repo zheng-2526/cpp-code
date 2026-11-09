@@ -1,0 +1,76 @@
+ UNO
+        Input ﬁle:          standard input
+        Output ﬁle:         standard output
+        Time limit:         1 second
+        Memory limit:       1024 megabytes
+
+Troubadour_Ggmz and Fengmi123 are playing a special UNO game. UNO cards have four colors: red,
+yellow, green, and blue, denoted by R, Y, G, and B, respectively. Each color contains n cards, with ranks
+being any integers from 1 to n; there may be two cards with the same color and rank. The whole deck
+has 4n cards.
+
+At the beginning of the game, Troubadour_Ggmz arranges all 4n cards in a row, then Fengmi123 can
+perform the following operation any number of times: choose two adjacent cards, and if they are the same
+color or the same rank, swap their positions.
+
+The goal of the game is to rearrange all cards into a state that is both color-ordered and rank-ordered,
+i.e.:
+
+    • The color order is R < Y < G < B, meaning all red cards appear before all yellow cards, all yellow
+        cards appear before all green cards, and all green cards appear before all blue cards;
+
+    • For cards of the same color, the sequence of ranks must be non-decreasing.
+
+Fengmi123 wants to know whether she can achieve the target state through a sequence of allowed
+operations (possibly zero).
+
+Input
+There are multiple test cases. The ﬁrst line contains an integer t (1 ≤ t ≤ 1000), the number of test cases.
+For each test case:
+
+The ﬁrst line contains a positive integer n (1 ≤ n ≤ 1000).
+
+Then 4n lines follow, each containing a positive integer xi and a character ci , where 1 ≤ xi ≤ n,
+ci ∈ {R, Y, G, B}, indicating the rank and color of the i-th card in order. It is guaranteed that each color
+appears exactly n times, but cards with the same color and rank may appear multiple times.
+
+It is guaranteed that the sum of n over all test cases does not exceed 1000.
+
+Output
+For each test case, if the target state can be reached, output a line containing “YES”, otherwise output a
+line containing “NO”.
+
+You may output the answer in any case (upper or lower). For example, the strings “yEs”, “yes”, “Yes”,
+and “YES” will all be recognized as positive responses.
+
+
+
+
+                                                  Page 1 of 2
+Example
+          standard input                 standard output
+2                           YES
+2                           NO
+1 R
+2 Y
+2 R
+1 G
+1 Y
+2 B
+2 G
+1 B
+2
+1 R
+2 Y
+1 Y
+2 B
+2 R
+1 G
+2 G
+1 B
+
+
+
+
+                           Page 2 of 2
+

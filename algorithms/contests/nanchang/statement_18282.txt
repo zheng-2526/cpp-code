@@ -1,0 +1,64 @@
+Legacy Code
+     Input file:             standard input
+     Output file:            standard output
+     Time limit:             8 seconds
+     Memory limit:           1024 megabytes
+
+You have a piece of legacy code:
+
+                                       for t = 1 to k do
+                                            ax1 ← (au1 × av1 ) mod M OD
+                                            ax2 ← (au2 × av2 ) mod M OD
+                                            ax3 ← (au3 × av3 ) mod M OD
+                                            ..
+                                             .
+                                           axm ← (aum × avm ) mod M OD
+                                       end for
+
+where M OD = 998 244 353 and xi , ui , vi ∈ {1, . . . , n} for i = 1, . . . , m.
+Given the initial values of the variables a1 , a2 , . . . , an , compute their final values after the loop runs k
+times. You need to answer q such queries.
+
+Input
+The first line contains three integers n, m and q (1 ≤ n ≤ 200, 1 ≤ m ≤ 2 × 105 , 1 ≤ q ≤ 200).
+The next m lines each contain three integers xi , ui , vi (1 ≤ xi , ui , vi ≤ n).
+Each of the next q lines represents a query. Each query contains n + 1 integers:
+
+   • the number of iterations k (1 ≤ k ≤ 106 ),
+
+   • the initial values of the n variables a1 , a2 , . . . , an (0 ≤ ai < 998 244 353).
+
+Output
+For each query, output a single line containing n integers — the final values of a1 , a2 , . . . , an after executing
+the code, each modulo 998 244 353.
+
+
+
+
+                                                      Page 1 of 2
+Example
+                                standard input
+7 8 4
+3 1 2
+4 3 3
+5 6 7
+7 1 3
+2 2 2
+6 6 2
+1 5 6
+7 7 7
+1 2 1 1 1 1 1 1
+2 1 2 3 4 5 6 7
+3 1 1 0 1 0 1 0
+100 11 45 14 19 19 8 10
+                                standard output
+1 1 2 4 1 1 16
+36864 16 4032 16257024 96 384 227524445
+0 1 1 1 0 1 1
+244858606 337827833 584144609 343808937 412777304 279017446 926699892
+
+
+
+
+                                       Page 2 of 2
+

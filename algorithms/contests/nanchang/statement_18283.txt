@@ -1,0 +1,55 @@
+Little Z’s Function
+       Input file:             standard input
+       Output file:            standard output
+       Time limit:             5.5 seconds
+       Memory limit:           1024 megabytes
+
+Little Z was obsessed with number-theoretic functions such as Euler’s totient function φ∗ back in high
+school.
+One day, Little Z decides to play a game with his robotic friend. First, Little Z gives a permutation† p
+of length n. Then he asks his friend multiple queries. For a given interval [l, r] (1 ≤ l < r ≤ n), find the
+maximum value of φ(pi × pj ) where l ≤ i < j ≤ r.
+Formally, for each query with two integers l, r, you need to compute:
+
+                                                      max φ(pi × pj )
+                                                     l≤i<j≤r
+
+
+Little Z has solved exactly 0 queries. Please help him compute the remaining q queries.
+
+Input
+The first line contains a positive integer n (2 ≤ n ≤ 5 × 105 ) — the length of the permutation.
+The second line contains n distinct integers p1 , p2 , . . . , pn (1 ≤ pi ≤ n) — the given permutation p.
+The third line contains a positive integer q (1 ≤ q ≤ 5 × 105 ) — the number of queries.
+Each of the next q lines contains two integers li and ri (1 ≤ li < ri ≤ n) — the endpoints of the i-th query.
+
+Output
+For each query, output a single integer — the maximum value.
+
+Example
+                  standard input                                            standard output
+ 6                                                         2
+ 3 2 5 4 1 6                                               8
+ 8                                                         8
+ 4 5                                                       4
+ 2 6                                                       8
+ 3 5                                                       8
+ 2 3                                                       2
+ 3 4                                                       8
+ 1 5
+ 4 5
+ 2 6
+
+
+
+
+   ∗
+     φ(n) denotes the number of positive integers not exceeding n that are coprime to n.
+   †
+     A permutation of length n is an array consisting of n distinct integers from 1 to n in arbitrary order. For example,
+[2, 3, 1, 5, 4] is a permutation, but [1, 2, 2] is not a permutation (2 appears twice in the array), and [1, 3, 4] is also not a
+permutation (n = 3 but there is 4 in the array).
+
+
+                                                          Page 1 of 1
+

@@ -1,0 +1,57 @@
+The Diﬃculty of Marathon
+     Input ﬁle:           standard input
+     Output ﬁle:          standard output
+     Time limit:          1 second
+     Memory limit:        1024 megabytes
+
+If you don’t want to read the background of the problem, please skip directly to the last paragraph.
+
+In 490 BC, after the Greek victory in the Battle of Marathon, the messenger Pheidippides ran
+approximately 40 kilometers from the Marathon Plain to Athens to announce the triumph, and died
+shortly after declaring victory. To commemorate this event, the marathon was introduced as an event
+at the ﬁrst modern Olympic Games in Athens in 1896, with an initial distance of about 40 kilometers.
+The route was adjusted to 42.195 kilometers at the 1908 London Olympic Games, and this standard was
+oﬃcially adopted by World Athletics in 1921. The women’s marathon became an oﬃcial Olympic event
+at the 1984 Los Angeles Olympic Games.
+
+Marathon can easily lead to extreme physical exhaustion. Runners often experience “hitting the wall”
+(glycogen depletion) between 30 and 35 kilometers, causing a breakdown of both physical strength and
+willpower. Long-distance running also poses injury risks to the knees, ankles, calves, and other body parts.
+Additionally, it is diﬃcult to control the pace at the start; the second half of the race is a lonely mental
+struggle; weather changes aﬀect physical comfort; improper timing of refueling can cause gastrointestinal
+discomfort and electrolyte imbalance. Participating in a marathon also requires high standards of daily
+systematic endurance and strength training. Participating without proper preparation carries a high risk
+of injury.
+
+However, the biggest diﬃculty of marathon lies in the extremely low registration success rate. The success
+rate for popular marathons is often below 10%, and for beginners, it can be as low as 2%.
+
+If you are a marathon beginner, what do you think is the biggest diﬃculty of running a marathon?
+
+For each draw factor N and registration number M , you are considered successful if N divides M . Given
+the registration number and draw factor, determine whether you are selected.
+
+Input
+The ﬁrst line contains a positive integer T (1 ≤ T ≤ 100), representing the number of test cases.
+
+The next T lines each contain two positive integers M, N (1 ≤ M, N ≤ 100000), representing your
+registration number M and draw factor N .
+
+Output
+For each test case, output one line with an integer: output 1 if selected, and 0 if not selected.
+
+
+
+
+                                                 Page 1 of 2
+Example
+            standard input                 standard output
+2                             1
+2026 2026                     0
+2 2025
+
+
+
+
+                             Page 2 of 2
+

@@ -1,0 +1,93 @@
+Kingdam of Construction
+     Input file:           standard input
+     Output file:          standard output
+     Time limit:           2 seconds
+     Memory limit:         1024 megabytes
+
+You are managing the valve matrix of the “Kingdam of Construction”.
+Given an n × m matrix a (both n and m are even), where all elements of a are distinct positive integers
+between 1 and n × m.
+You can perform the following two types of operations in any order:
+
+   • Choose row i (1 ≤ i ≤ n) and reverse it left-to-right, i.e. for all 1 ≤ j ≤ m
+                                                                                 2 , swap ai,j and ai,m−j+1 ;
+
+   • Choose column j (1 ≤ j ≤ m) and reverse it top-to-bottom, i.e. for all 1 ≤ i ≤ n2 , swap ai,j and
+     an−i+1,j .
+
+Determine whether it is possible to transform a into the n × m target matrix b after a finite number of
+operations, where b is filled in row-major order with 1, 2, . . . , n × m, i.e. bi,j = (i − 1) × m + j. If it is
+possible, construct an operation sequence with no more than 9961 operations (it is also allowed to
+perform no operation, i.e. an empty operation sequence). It can be proved that if an operation sequence
+exists, then there also exists one with no more than 9961 operations.
+
+Input
+The first line contains a positive integer t (1 ≤ t ≤ 25), representing the number of test cases. For each
+test case:
+The first line contains two positive integers n and m (2 ≤ n ≤ 134, 2 ≤ m ≤ 134), representing the
+number of rows and columns of matrix a.
+The next n lines each contain m positive integers ai,1 , ai,2 , . . . , ai,m , representing the elements of matrix
+a.
+It is guaranteed that both n and m are even; it is also guaranteed that every integer from 1 to n × m
+appears exactly once in matrix a.
+
+Output
+For each test case:
+If it is possible to transform matrix a into the target matrix b in finitely many operations, print “Yes” on
+the first line.
+Then print one non-negative integer cnt on the next line, representing the number of operations. You
+must ensure that 0 ≤ cnt ≤ 9961 (for each test case; that is, there is no restriction on the sum of cnt over
+all test cases).
+Then print cnt lines, each containing two integers op and idx (op ∈ {0, 1}, 1 ≤ idx ≤ n if op = 0, otherwise
+1 ≤ idx ≤ m), where op = 0 means reversing row idx, and op = 1 means reversing column idx.
+If no valid sequence of operations exists, output only one line containing “No”.
+You can output the answer in any case (upper or lower). For example, the strings “yEs”, “yes”, “Yes”, and
+“YES” will be recognized as positive responses.
+
+
+
+
+                                                    Page 1 of 2
+Example
+               standard input                                  standard output
+ 4                                               Yes
+ 2 4                                             2
+ 4 3 2 1                                         0 1
+ 8 7 6 5                                         0 2
+ 2 4                                             Yes
+ 1 3 2 4                                         5
+ 5 6 7 8                                         1 2
+ 4 2                                             0 1
+ 1 2                                             1 2
+ 3 4                                             0 1
+ 7 8                                             1 2
+ 5 6                                             No
+ 4 4                                             No
+ 4 15 14 16
+ 8 6 11 12
+ 5 7 10 9
+ 13 3 2 1
+
+Note
+For the second sample test case, the operation process is as follows:
+                                                                                     
+                        1   3   2   4   column, 2   1 6    2   4      row, 1    4 2   6 1
+                                       −−−−−−→                       −−−−→
+                       5   6   7   8            5 3     7   8             5 3    7 8
+             column, 2  4   3   6   1     row, 1   1 6     3   4    column, 2  1 2    3 4
+            −−−−−−→                      −−−−→                     −−−−−−→                 .
+                        5   2   7   8              5 2     7   8               5 6    7 8
+                                                                                             
+                                                                    1       2         1 2 3 4
+                                                                   3       4
+For the third and fourth sample test cases, the target matrix b is            and  5 6 7 8 ,
+                                                                                               
+                                                                   5       6       9 10 11 12
+                                                                    7       8        13 14 15 16
+respectively. It can be proved that both cases have no solution.
+
+
+
+
+                                                Page 2 of 2
+
