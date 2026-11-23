@@ -1,3 +1,6 @@
+// 题意或用途（据代码整理）：求两个用字符串输入的非负大整数的乘积。
+// 阅读要点：模拟竖式：第 i、j 位相乘累加到第 i+j 位，再向相邻更高位进位。
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -11,6 +14,7 @@ int main(){
     for(int i = 0; i < s2.size(); i++) b[i] = s2[s2.size() - i - 1] - '0';
     for(int i = 0; i < s2.size(); i++) {
         for(int j = 0; j < s1.size(); j++) {
+            // 两个数字的低位下标相加，就是竖式乘积应累加的位置。
             c[j + i] += a[j] * b[i];
             if(c[j + i] >= 10) {
                 c[j + i + 1] += c[j + i] / 10;

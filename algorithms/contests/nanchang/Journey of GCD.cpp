@@ -1,3 +1,6 @@
+// 题目（同目录 statement_18281.pdf）：完全图的边权是两端数值的 gcd，询问两点间能使路径最小边权最大的值。
+// 阅读要点：从大到小枚举公因子，用并查集合并，记录每次合并的门槛。两点在重构树上的最近公共祖先给出首次连通的门槛。
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -39,6 +42,7 @@ int main() {
     vector<int> weight(max_nodes), roots_seen;
     int tot = n;
 
+    // 所有 d 的倍数之间的边权至少为 d，按门槛由高往低合并。
     for (int d = maxa; d >= 1; --d) {
         int base = 0;
         for (int x = d; x <= maxa; x += d) {
@@ -50,6 +54,7 @@ int main() {
                     int rb = dsu.find(base);
                     if (rb != r) {
                         ++tot;
+                        // 把本次合并建为新父节点，保留两个原连通块首次相连的门槛。
                         weight[tot] = d;
                         child[tot] = {rb, r};
                         dsu.p[rb] = dsu.p[r] = dsu.p[tot] = tot;
@@ -81,6 +86,7 @@ int main() {
         for (int i = 1; i <= tot; ++i) up[j][i] = up[j - 1][up[j - 1][i]];
     }
 
+    // 先用倍增加深度对齐，再一起往上跳到首次会合之前。
     auto lca = [&](int u, int v) {
         if (depth[u] < depth[v]) swap(u, v);
         int diff = depth[u] - depth[v];

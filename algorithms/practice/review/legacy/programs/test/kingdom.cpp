@@ -1,3 +1,6 @@
+// 题意或用途（据代码整理）：从 kingdom.in 读入数对，按平方差的绝对值计算一个计数结果。
+// 阅读要点：用 (n+m)*abs(n-m) 得到 abs(n^2-m^2)，按奇偶和是否至少为 8 添项，输出写到 kingdom.out。
+
 #include <bits/stdc++.h>
 using namespace std;
 

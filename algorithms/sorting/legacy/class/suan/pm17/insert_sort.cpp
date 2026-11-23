@@ -1,3 +1,6 @@
+// 题意或用途（据代码整理）：用直接插入排序将数组升序排列。
+// 阅读要点：每轮把 a[i] 插进左侧有序前缀，向右挪比它大的数，直到找到插入位置。
+
 #include <iostream>
 #include <string>
 #include <algorithm>

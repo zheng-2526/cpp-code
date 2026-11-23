@@ -1,3 +1,7 @@
+// 题意或用途（据代码整理）：流星落点和四邻会在指定时刻起失效，求从原点到永久安全格子的最短时间。
+// 阅读要点：先取每格最早失效时刻，BFS 只允许到达时刻严格早于失效时刻的格子。
+// 注意：依赖 rainstar.in/out，坐标搜索范围由 MAXN 固定。
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -29,6 +33,7 @@ int main() {
             int nx = x + (d < 4 ? dx[d] : 0);
             int ny = y + (d < 4 ? dy[d] : 0);
             if (nx < 0 || ny < 0 || nx >= MAXN || ny >= MAXN) continue;
+            // 多次流星可能影响同一格，只需保留它第一次变得不可进入的时刻。
             burn[nx][ny] = min(burn[nx][ny], t);
         }
     }
@@ -50,6 +55,7 @@ int main() {
             int ny = cur.y + dy[d];
             if (nx < 0 || ny < 0 || nx >= MAXN || ny >= MAXN) continue;
             if (vis[nx][ny]) continue;
+            // 抵达时刻等于失效时刻也不允许进入。
             if (cur.t + 1 >= burn[nx][ny]) continue;
             vis[nx][ny] = true;
             q.push({nx, ny, cur.t + 1});

@@ -1,3 +1,6 @@
+// 题意或用途（据代码整理）：将四位年月 YYMM 或六位年月 YYYYMM 格式化为 YYYY-MM。
+// 阅读要点：四位输入按前两位与 22 比较选择 19 或 20 前缀，六位输入直接在年月之间插入短横线。
+
 #include <bits/stdc++.h>
 using namespace std;
 

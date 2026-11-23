@@ -1,3 +1,6 @@
+// 题意或用途（据代码整理）：比较 Lynx、Serval、Ocelot 三个版本的相对顺序，判断第一个是否不早于第二个。
+// 阅读要点：把 Ocelot 当作最高版本，分别列出同版本和跨版本条件。
+
 #include <bits/stdc++.h>
 using namespace std;
 

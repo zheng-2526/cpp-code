@@ -1,3 +1,7 @@
+// 题意或用途（据代码整理）：两人轮流在有权值的 3×3 棋盘落子，三连即胜，填满后可能比较双方得分。
+// 阅读要点：状态含棋盘、双方分数和轮到谁，枚举落子并缓存已求状态。
+// 注意：代码递归用取反切换视角，但终局返回固定为先手或后手胜负，二者视角需统一后才可当作正确的博弈模板。
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -79,6 +83,7 @@ int dfs(State state) {
                 next.scores[state.turn] += A[i][j];
                 next.turn = 1 - state.turn;
 
+                // 这一步想转换到当前行动者视角，终局返回也得采用相同的视角才能正确。
                 int val = -dfs(next); 
                 best = max(best, val);
             }

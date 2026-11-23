@@ -1,3 +1,7 @@
+// 题意或用途（据代码整理）：为历史练习生成若干随机测试输入文件。
+// 阅读要点：每个文件两个随机正整数，用循环编号生成 zyz4.in 至 zyz10.in。
+// 注意：ofstream 可能覆盖工作目录中已有的同名文件。
+
 #include <bits/stdc++.h>
 #include <chrono>  // chrono 库
 using namespace std;

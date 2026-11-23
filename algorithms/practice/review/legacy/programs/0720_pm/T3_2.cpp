@@ -1,3 +1,7 @@
+// 题意或用途（据代码整理）：统计障碍网格中的 C/F 图形，尝试替代逐格枚举各条臂的长度。
+// 阅读要点：列前缀和判竖段是否畅通，mxm/mxn 存向右和向下的可达边界，臂长方案相乘。
+// 注意：历史实现有读入格式与整数类型不匹配等问题，权重也没有完整应用于输出。
+
 #include<bits/stdc++.h>
 #define int long long//记得开 long long。
 using namespace std;

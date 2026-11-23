@@ -1,3 +1,7 @@
+// 题目（同目录 statement_18275.pdf）：对每个树根，允许修改叶子的樱桃种类，求让所有根到叶路径的种类集合一致所需的最少修改。
+// 阅读要点：用 6 位掩码保存种类集合。down 和 up 分别统计子树内外的路径，inc/exc 区分是否计入叶端的种类。
+// 注意：叶端之外已经出现的种类是目标集合必须包含的，用 forced 表示，再找最多能保留的原路径。
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -60,6 +64,7 @@ int main() {
         up_exc[u].fill(0);
     }
 
+    // 倒序处理节点，保证先得到孩子的路径分布，再合并给父节点。
     for (int it = n - 1; it >= 0; --it) {
         int u = order[it];
         if (is_leaf[u]) {
@@ -104,6 +109,7 @@ int main() {
             total_exc[0]--;
         }
 
+        // 不能改动路径内部的节点，因此这些节点的种类要并入共同目标集合。
         int forced = 0;
         for (int mask = 0; mask < 64; ++mask) {
             if (total_exc[mask] > 0) forced |= mask;
@@ -117,6 +123,7 @@ int main() {
 
         for (int v : g[u]) {
             if (parent[v] != u) continue;
+            // 向孩子传递来自其他方向的路径时，先扣掉这个孩子自身的贡献。
             Arr excl_inc = all_inc;
             Arr excl_exc = all_exc;
             for (int mask = 0; mask < 64; ++mask) {

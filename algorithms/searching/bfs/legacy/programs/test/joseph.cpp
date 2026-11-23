@@ -1,3 +1,6 @@
+// 题意或用途（据代码整理）：按约瑟夫规则让带名字的 n 人循环报数，每逢 m 出列，输出出列顺序。
+// 阅读要点：队首没出列就移到队尾；出列后计数重开。程序使用 joseph.in/out。
+
 #include <bits/stdc++.h>
 using namespace std;
 

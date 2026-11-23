@@ -1,3 +1,6 @@
+// 题意或用途（据代码整理）：跳过标题含 qiandao 或 easy 的题目，输出第 m+1 道其余题目；不足则输出固定提示。
+// 阅读要点：find 返回 npos 表示没找到，先标记应跳过的标题，再数剩余题。
+
 #include <bits/stdc++.h>
 using namespace std;
 

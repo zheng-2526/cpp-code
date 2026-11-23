@@ -1,3 +1,6 @@
+// 题意或用途（据代码整理）：从 1 至 n 选取 m 个互不相同的数并排列，输出各排列和总个数。
+// 阅读要点：book 标记路径内已经选的数，返回上一层时恢复标记，以便进入下一条分支。
+
 #include<bits/stdc++.h>
 using namespace std;
 long long n,m,a[6+9],book[6+9],h;

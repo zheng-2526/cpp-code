@@ -1,3 +1,6 @@
+// 题意或用途（据代码整理）：求若干数轴区间覆盖的总长度。
+// 阅读要点：按左端点排序，zr 记已覆盖的最右端。新区间完全分离时加全长，部分重叠时只加露出的部分。
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -21,6 +24,7 @@ int main() {
             zl = a[i].l, zr = a[i].r;
             continue;
         }
+        // 只计右端超过现有覆盖范围的增量。
         if(a[i].r > zr) {
             ans += a[i].r - zr;
             zr = a[i].r;

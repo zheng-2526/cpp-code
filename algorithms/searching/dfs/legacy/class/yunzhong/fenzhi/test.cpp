@@ -1,3 +1,6 @@
+// 题意或用途（据代码整理）：判断四向迷宫是否有从左上到右下的可走路径。
+// 阅读要点：DFS 适合判断可达性，b 标记走过的格子。全程不撤销访问标记，避免同一格反复搜索。
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -21,6 +24,7 @@ void dfs(int nx, int ny) {
                 ny -= dy[i];
                 continue;
             }
+            // 只判断能否到达，已探索过的格子可以全局保留标记。
             b[nx][ny] = true;
             dfs(nx, ny);
         }

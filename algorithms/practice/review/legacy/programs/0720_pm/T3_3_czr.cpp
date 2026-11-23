@@ -1,3 +1,7 @@
+// 题意或用途（据代码整理）：统计二值网格里的 C/F 形种植方案并加权输出。
+// 阅读要点：l/c 存右侧和下方还能延伸多少，按列扫描时累加可配对的上横臂，乘当前横臂及可选竖尾长度。
+// 注意：注意原代码在列扫描早期可能使用 j-2 的负下标。
+
 #include<bits/stdc++.h>
 using namespace std;
 const int N = 1e6;
@@ -44,6 +48,7 @@ int main(){
                     j++;
                     continue;
                 }
+                // 横臂上下至少隔两行，把新满足间距的上横臂累加进候选。
                 sum += l[j-2][i];
                 ansc = (ansc + l[j][i] * sum) % mod;
                 ansf = (ansf + c[j][i] * l[j][i]*sum) % mod;

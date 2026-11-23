@@ -1,3 +1,6 @@
+// 题目（同目录 statement_18277.pdf）：求一条走过每条无向边恰好一次的路径，到达配对传送点时立即跳转，起点和最后一次到达除外。
+// 阅读要点：用边编号区别重边，栈上的状态记录实际到达点与传送后的下一出发点。倒序收集边，再检查拼出的路线。
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -77,10 +80,12 @@ int main() {
                 ++used_cnt;
                 int a = edges[id].u, b = edges[id].v;
                 int other = (a == u && b == u) ? u : (a == u ? b : a);
+                // 到达点 other 与下次可出发点 jump[other] 可能不同，两个编号都要保存。
                 st.push_back({jump[other], other, id, u});
             }
 
             if (used_cnt != m) continue;
+            // 回溯时收集的是逆序的边，反转后再检验是否符合传送规则。
             reverse(rev.begin(), rev.end());
 
             vector<int> out;

@@ -1,3 +1,7 @@
+// 题目（同目录 statement_18283.pdf）：在排列的每个查询区间内选两个不同位置，使两数乘积的欧拉函数值最大。
+// 阅读要点：线段树合并区间中最大的若干候选，利用最小质因子表修正两数共有质因子。乘积是欧拉函数的上界，可做提前退出。
+// 注意：仅检查至多 80 个候选，截断正确性需结合题目另行证明。
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -12,6 +16,7 @@ long long phi_product(int a, int b) {
     while (g > 1) {
         int p = spf[g];
         if (p != last) {
+            // 共有质因子在 phi(a)*phi(b) 里被扣了两次，乘 p/(p-1) 补回一次。
             ans = ans / (p - 1) * p;
             last = p;
         }
@@ -95,6 +100,7 @@ int main() {
     while (q--) {
         int l, r;
         cin >> l >> r;
+        // 这里只在保留的候选中找配对，需另行论证遗漏的较小数是否影响最优值。
         vector<int> cand = seg.query(l, r);
         long long best = 0;
         for (int i = 0; i < (int)cand.size(); ++i) {

@@ -1,3 +1,7 @@
+// 题意或用途（据代码整理）：判断字符串中的圆括号和方括号是否正确嵌套。
+// 阅读要点：字符数组模拟栈，t 是栈顶，右括号必须和最近尚未配对的左括号同型。
+// 注意：旧写法没有显式判断空栈，正确实现可参考 check.cpp 的结构。
+
 #include<iostream>
 #include<cstring>
 using namespace std;

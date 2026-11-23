@@ -1,3 +1,7 @@
+// 题目（同目录 statement_18282.pdf）：给定一组按顺序执行的模乘赋值和若干查询，求每组初值执行 k 轮后的结果。
+// 阅读要点：把连乘拆成初始变量的幂，指数用矩阵倍增，另外用布尔矩阵跟踪实际存在的因子。
+// 注意：指数取模后可能变为 0，pos 可以区分这一情况与该因子从未出现，避免把含零的乘积算错。
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -61,6 +65,7 @@ vector<int> apply_map(const vector<int> &val, const Mat &e, const BMat &pos, int
         bool zero = false;
         long long prod = 1;
         for (int j = 0; j < n; ++j) {
+            // 先问因子是否实际出现，再看指数余数。零底数不能只按指数余数判断。
             if (!pos[i][j]) continue;
             if (val[j] == 0) {
                 zero = true;
@@ -98,6 +103,7 @@ int main() {
         cin >> x >> u >> v;
         --x; --u; --v;
         for (int j = 0; j < n; ++j) {
+            // 两数相乘时，同一初始变量的指数相加，结果覆盖当前赋值的目标行。
             trans[x][j] = trans[u][j] + trans[v][j];
             if (trans[x][j] >= PHI) trans[x][j] -= PHI;
         }
@@ -110,6 +116,7 @@ int main() {
     pw[0] = trans;
     bpw[0] = pos;
     for (int b = 1; b < LOG; ++b) {
+        // 每次把已有变换与自己复合，得到多执行一倍轮数的变换。
         pw[b] = mul_mod(pw[b - 1], pw[b - 1], n);
         bpw[b] = mul_bool(bpw[b - 1], bpw[b - 1], n);
     }

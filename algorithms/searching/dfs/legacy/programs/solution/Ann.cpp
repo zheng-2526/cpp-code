@@ -1,3 +1,6 @@
+// 题意或用途（据代码整理）：输出 1 至 n 的全排列。
+// 阅读要点：DFS 每层决定一个位置，用 a 标记已选数，回退时取消标记恢复现场。
+
 #include <bits/stdc++.h>
 using namespace std;
 

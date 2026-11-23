@@ -1,3 +1,7 @@
+// 题目（同目录 statement_18284.pdf）：通过翻转任意一整行或一整列，把编号矩阵变为按行递增的目标排列并输出操作。
+// 阅读要点：先按行列镜像排除位置不可能到达的数字，小规模再用 BFS 记录前驱并回溯翻转操作。
+// 注意：大矩阵非初始有序时直接输出 No，只覆盖小规模搜索。
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -27,6 +31,7 @@ int main() {
         for (int i = 0; i < n * m; ++i) target[i] = i + 1;
         for (int i = 0; i < n * m; ++i) cin >> start[i];
 
+        // 单次翻转只改变一个坐标的镜像位置，因此每个数字始终局限在自己的四点集合。
         bool orbit_ok = true;
         vector<int> pos(n * m + 1);
         for (int i = 0; i < n * m; ++i) pos[start[i]] = i;
@@ -49,6 +54,7 @@ int main() {
 
         if (n * m <= 10) {
             queue<State> q;
+            // 同一个矩阵状态只入队一次，记录从哪里来以及做了哪次翻转。
             map<State, pair<State, pair<int, int>>> pre;
             q.push(start);
             pre[start] = {State(), {-1, -1}};

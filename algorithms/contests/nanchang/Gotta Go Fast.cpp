@@ -1,3 +1,6 @@
+// 题目（同目录 statement_18280.pdf）：四层叠塔沿轨道前进，不同地形耗时不同，可零耗时前跳并减少一层，求顶层到终点的最短时间。
+// 阅读要点：dp[used][x] 是已前跳 used 次到达 x 的最少耗时，每个状态可步行一格或消耗一次前跳。
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -19,6 +22,7 @@ int main() {
         for (int x = 0; x <= l; ++x) {
             long long cur = dp[used][x];
             if (cur == INF) continue;
+            // 步行使用下一格的地形耗时，前跳则直接转移到 used 更大的一层。
             if (x < l) {
                 int terrain = s[x] - '0';
                 dp[used][x + 1] = min(dp[used][x + 1], cur + t[terrain]);

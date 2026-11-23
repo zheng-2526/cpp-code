@@ -1,3 +1,7 @@
+// 题目（同目录 statement_18276.pdf）：可反复选一段连续音符并把每个分值加 1，使各前缀分数都落在指定区间，求最少操作数。
+// 阅读要点：原分数做前缀和后，lo/hi 是额外前缀增量的上下界，y 相邻之差是每个音符增加的分。
+// 注意：这份实现用有轮数上限的平滑扫描调整 y，不能仅凭注释视作已验证的最优解。
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -46,6 +50,7 @@ int main() {
 
         vector<long long> y(n + 1);
         for (int i = 1; i <= n; ++i) {
+            // 额外分数只增不减，所以当前前缀至少要达到上一前缀的值。
             y[i] = max(y[i - 1], lo[i]);
             if (y[i] > hi[i]) ok = false;
         }
@@ -88,6 +93,7 @@ int main() {
         long long prev_x = 0;
         for (int i = 1; i <= n; ++i) {
             long long x = y[i] - y[i - 1];
+            // 从前一位置到当前需要更多的增量时，新增差值对应开启新的区间。
             if (x > prev_x) ans += x - prev_x;
             prev_x = x;
         }

@@ -1,3 +1,7 @@
+// 题意或用途（据代码整理）：按规则把自然语言输入改写为 AI 回答。
+// 阅读要点：扫描时做空格、大小写和问号处理，再对词语 I、me、can you、could you 做替换。
+// 注意：旧实现访问 s[i-1] 前未判断 i 是否为 0，空白和词界也需验证。
+
 #include <bits/stdc++.h>
 using namespace std;
 

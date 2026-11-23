@@ -1,3 +1,6 @@
+// 题目（同目录 statement_18272.pdf）：对每组 M、N 判断 M 能否被 N 整除，输出 1 或 0。
+// 阅读要点：余数 M % N 为 0 表示可以整除，除数须非零。
+
 #include <bits/stdc++.h>
 using namespace std;
 
