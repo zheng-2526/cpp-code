@@ -10,6 +10,7 @@
 - [heaps](./heaps/)
 - [linear-lists](./linear-lists/)
 - [linked-lists](./linked-lists/)
+- [queues](./queues/)：队列的应用，包括约瑟夫环模拟。
 - [stacks](./stacks/)
 - [trees](./trees/)
 

@@ -18,12 +18,12 @@ class/suan/pm17/quicksort.cpp,algorithms/sorting/legacy/class/suan/pm17/quicksor
 class/suan/pm17/roads.cpp,algorithms/searching/dfs/legacy/class/suan/pm17/roads.cpp,递归搜索、回溯或枚举排列
 class/suan/pm17/select_sort.cpp,algorithms/sorting/legacy/class/suan/pm17/select_sort.cpp,排序算法实现
 class/suan/pm17/st.cpp,algorithms/searching/dfs/legacy/class/suan/pm17/st.cpp,递归搜索、回溯或枚举排列
-class/suan/pm17/te.cpp,algorithms/practice/sorting-applications/legacy/class/suan/pm17/te.cpp,调用排序的题目；不据此判定为排序算法实现
+class/suan/pm17/te.cpp,algorithms/greedy/legacy/class/suan/pm17/te.cpp,过桥问题的快读版本，主思路是贪心安排往返
 class/suan/pm17/test.cpp,algorithms/practice/sorting-applications/legacy/class/suan/pm17/test.cpp,调用排序的题目；不据此判定为排序算法实现
 class/suan/pm17/tt.cpp,algorithms/practice/sorting-applications/legacy/class/suan/pm17/tt.cpp,调用排序的题目；不据此判定为排序算法实现
 class/suan/pm17/weight.cpp,algorithms/searching/dfs/legacy/class/suan/pm17/weight.cpp,递归搜索、回溯或枚举排列
-class/suan/pm17/1220/E.cpp,algorithms/practice/sorting-applications/legacy/class/suan/pm17/1220/E.cpp,调用排序的题目；不据此判定为排序算法实现
-class/suan/pm17/1220/E2.cpp,algorithms/practice/sorting-applications/legacy/class/suan/pm17/1220/E2.cpp,调用排序的题目；不据此判定为排序算法实现
+class/suan/pm17/1220/E.cpp,algorithms/greedy/legacy/class/suan/pm17/1220/E.cpp,过桥问题，贪心比较送走两位最慢者的局部策略
+class/suan/pm17/1220/E2.cpp,algorithms/greedy/legacy/class/suan/pm17/1220/E2.cpp,过桥问题的另一版本，贪心比较两种转运策略
 class/suan/pm17/1220/F.cpp,algorithms/greedy/legacy/class/suan/pm17/1220/F.cpp,复核实现内容后归类：algorithms/greedy
 class/yunzhong/beibao/01-1.cpp,algorithms/dynamic-programming/legacy/class/yunzhong/beibao/01-1.cpp,背包或 dp 状态转移
 class/yunzhong/beibao/01-2.cpp,algorithms/dynamic-programming/legacy/class/yunzhong/beibao/01-2.cpp,背包或 dp 状态转移
@@ -33,7 +33,7 @@ class/yunzhong/beibao/hun.cpp,algorithms/dynamic-programming/legacy/class/yunzho
 class/yunzhong/beibao/wanquan.cpp,algorithms/dynamic-programming/legacy/class/yunzhong/beibao/wanquan.cpp,背包或 dp 状态转移
 class/yunzhong/erfen/guess.cpp,algorithms/searching/binary-search/legacy/class/yunzhong/erfen/guess.cpp,二分区间缩小/查找
 class/yunzhong/fenzhi/find-1.cpp,algorithms/searching/binary-search/legacy/class/yunzhong/fenzhi/find-1.cpp,二分区间缩小/查找
-class/yunzhong/fenzhi/find-2.cpp,algorithms/sorting/legacy/class/yunzhong/fenzhi/find-2.cpp,排序算法实现
+class/yunzhong/fenzhi/find-2.cpp,algorithms/searching/binary-search/legacy/class/yunzhong/fenzhi/find-2.cpp,先快排，再递归二分查找目标位置，与 find-1.cpp 并列
 class/yunzhong/fenzhi/msort.cpp,algorithms/sorting/legacy/class/yunzhong/fenzhi/msort.cpp,排序算法实现
 class/yunzhong/fenzhi/qsort.cpp,algorithms/sorting/legacy/class/yunzhong/fenzhi/qsort.cpp,排序算法实现
 class/yunzhong/fenzhi/test.cpp,algorithms/searching/dfs/legacy/class/yunzhong/fenzhi/test.cpp,递归搜索、回溯或枚举排列
@@ -44,7 +44,7 @@ class/yunzhong/kuansou/test.cpp,basics/number-systems/legacy/class/yunzhong/kuan
 class/yunzhong/shensou/migong.cpp,algorithms/searching/dfs/legacy/class/yunzhong/shensou/migong.cpp,递归搜索、回溯或枚举排列
 class/yunzhong/shensou/queen.cpp,algorithms/searching/dfs/legacy/class/yunzhong/shensou/queen.cpp,递归搜索、回溯或枚举排列
 class/yunzhong/shensou/test.cpp,algorithms/searching/dfs/legacy/class/yunzhong/shensou/test.cpp,递归搜索、回溯或枚举排列
-class/yunzhong/shulun/2-biao.cpp,algorithms/number-theory/legacy/class/yunzhong/shulun/2-biao.cpp,数论、位运算或组合数
+class/yunzhong/shulun/2-biao.cpp,basics/number-systems/legacy/class/yunzhong/shulun/2-biao.cpp,用位数组演示二进制加一，与 numbers.cpp 是同一类进位练习
 class/yunzhong/shulun/lowbit.cpp,algorithms/number-theory/legacy/class/yunzhong/shulun/lowbit.cpp,数论、位运算或组合数
 class/yunzhong/shulun/test.cpp,algorithms/searching/dfs/legacy/class/yunzhong/shulun/test.cpp,复核实现内容后归类：algorithms/searching/dfs
 class/zhangtong/test.cpp,basics/strings/legacy/class/zhangtong/test.cpp,复核实现内容后归类：basics/strings
@@ -70,23 +70,23 @@ programs/T4.cpp,algorithms/searching/dfs/legacy/programs/T4.cpp,递归搜索、�
 programs/T5.cpp,algorithms/dynamic-programming/legacy/programs/T5.cpp,背包或 dp 状态转移
 programs/binary_tree.cpp,basics/drafts/legacy/programs/binary_tree.cpp,空白或仅含注释的历史草稿
 programs/sleep_record.cpp,basics/arrays-and-simulation/legacy/programs/sleep_record.cpp,复核实现内容后归类：basics/arrays-and-simulation
-programs/0720_pm/T1.cpp,algorithms/practice/review/legacy/programs/0720_pm/T1.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/0720_pm/T1.cpp,algorithms/greedy/legacy/programs/0720_pm/T1.cpp,分段计数后逐位贪心匹配，与同题的 T1_2.cpp 并列
 programs/0720_pm/T1_2.cpp,algorithms/greedy/legacy/programs/0720_pm/T1_2.cpp,复核实现内容后归类：algorithms/greedy
-programs/0720_pm/T2.cpp,algorithms/practice/review/legacy/programs/0720_pm/T2.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
-programs/0720_pm/T2_2.cpp,algorithms/practice/review/legacy/programs/0720_pm/T2_2.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
-programs/0720_pm/T3.cpp,algorithms/practice/review/legacy/programs/0720_pm/T3.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
-programs/0720_pm/T3_2.cpp,algorithms/practice/review/legacy/programs/0720_pm/T3_2.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
-programs/0720_pm/T3_3_czr.cpp,algorithms/practice/review/legacy/programs/0720_pm/T3_3_czr.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/0720_pm/T2.cpp,algorithms/strings/legacy/programs/0720_pm/T2.cpp,字典序判定，比较各字符串的字符极值
+programs/0720_pm/T2_2.cpp,algorithms/strings/legacy/programs/0720_pm/T2_2.cpp,同一字典序判定题的另一版本，逐对检查字符极值
+programs/0720_pm/T3.cpp,algorithms/practice/grid-counting/legacy/programs/0720_pm/T3.cpp,统计 C/F 形网格图案的直接枚举版本
+programs/0720_pm/T3_2.cpp,algorithms/practice/grid-counting/legacy/programs/0720_pm/T3_2.cpp,同一网格计数题，以列前缀和及可延伸范围减少枚举
+programs/0720_pm/T3_3_czr.cpp,algorithms/practice/grid-counting/legacy/programs/0720_pm/T3_3_czr.cpp,同一网格计数题，按列累加先前可配对的横臂
 programs/0722_am/T1.cpp,basics/arrays-and-simulation/legacy/programs/0722_am/T1.cpp,复核实现内容后归类：basics/arrays-and-simulation
-programs/0722_am/T2.cpp,algorithms/practice/review/legacy/programs/0722_am/T2.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/0722_am/T2.cpp,algorithms/strings/legacy/programs/0722_am/T2.cpp,通过递增字符约束构造字典序后继
 programs/0722_am/T3.cpp,algorithms/practice/review/legacy/programs/0722_am/T3.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
 programs/0722_am/T4.cpp,basics/arrays-and-simulation/legacy/programs/0722_am/T4.cpp,复核实现内容后归类：basics/arrays-and-simulation
 programs/0722_am/T6.cpp,basics/arrays-and-simulation/legacy/programs/0722_am/T6.cpp,复核实现内容后归类：basics/arrays-and-simulation
 programs/0722_am/T7.cpp,data-structures/heaps/legacy/programs/0722_am/T7.cpp,堆/优先队列应用
-programs/0722_am/T7_2.cpp,algorithms/practice/sorting-applications/legacy/programs/0722_am/T7_2.cpp,调用排序的题目；不据此判定为排序算法实现
+programs/0722_am/T7_2.cpp,algorithms/greedy/legacy/programs/0722_am/T7_2.cpp,按就绪时间和最早空闲设备贪心排程，排序用于准备任务顺序
 programs/0722_am/test.cpp,basics/arrays-and-simulation/legacy/programs/0722_am/test.cpp,复核实现内容后归类：basics/arrays-and-simulation
 programs/0723/T2.cpp,algorithms/searching/bfs/legacy/programs/0723/T2.cpp,队列搜索/BFS 实现
-programs/0723/T3.cpp,algorithms/practice/review/legacy/programs/0723/T3.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/0723/T3.cpp,basics/arrays-and-simulation/legacy/programs/0723/T3.cpp,用删除标记模拟逐点移除，并线性扫描剩余邻居
 programs/0723/T5.cpp,data-structures/linked-lists/legacy/programs/0723/T5.cpp,结点与 next 指针操作
 programs/0723/depth_and_width.cpp,data-structures/trees/legacy/programs/0723/depth_and_width.cpp,二叉树遍历、深度或重建
 programs/0723/mid_last_to_first.cpp,data-structures/trees/legacy/programs/0723/mid_last_to_first.cpp,二叉树遍历、深度或重建
@@ -96,7 +96,7 @@ programs/0723/search_all.cpp,algorithms/practice/review/legacy/programs/0723/sea
 programs/0723/toys_l.cpp,basics/arrays-and-simulation/legacy/programs/0723/toys_l.cpp,复核实现内容后归类：basics/arrays-and-simulation
 programs/0723/tree.cpp,basics/drafts/legacy/programs/0723/tree.cpp,空白或仅含注释的历史草稿
 programs/0724/T1.cpp,basics/drafts/legacy/programs/0724/T1.cpp,复核实现内容后归类：basics/drafts
-programs/0724/char_binary.cpp,basics/arrays-and-simulation/legacy/programs/0724/char_binary.cpp,复核实现内容后归类：basics/arrays-and-simulation
+programs/0724/char_binary.cpp,basics/strings/legacy/programs/0724/char_binary.cpp,二维字符数组的多行字符串存取练习
 programs/0724/depth.cpp,data-structures/trees/legacy/programs/0724/depth.cpp,二叉树遍历、深度或重建
 programs/0724/first_mid_to_last.cpp,data-structures/trees/legacy/programs/0724/first_mid_to_last.cpp,二叉树遍历、深度或重建
 programs/0724/match.cpp,data-structures/trees/legacy/programs/0724/match.cpp,二叉树遍历、深度或重建
@@ -108,7 +108,7 @@ programs/solution/10to-B.cpp,basics/number-systems/legacy/programs/solution/10to
 programs/solution/2hours.cpp,basics/syntax-and-io/legacy/programs/solution/2hours.cpp,基础表达式、输入输出或短练习
 programs/solution/2to10.cpp,basics/number-systems/legacy/programs/solution/2to10.cpp,复核实现内容后归类：basics/number-systems
 programs/solution/4_1.cpp,algorithms/sorting/legacy/programs/solution/4_1.cpp,排序算法实现
-programs/solution/4_2.cpp,algorithms/recursion/legacy/programs/solution/4_2.cpp,复核实现内容后归类：algorithms/recursion
+programs/solution/4_2.cpp,algorithms/dynamic-programming/legacy/programs/solution/4_2.cpp,按盘数从小到大迭代更新六种有向搬运状态
 programs/solution/5zhengchu.cpp,basics/syntax-and-io/legacy/programs/solution/5zhengchu.cpp,基础表达式、输入输出或短练习
 programs/solution/A-B.cpp,algorithms/practice/sorting-applications/legacy/programs/solution/A-B.cpp,调用排序的题目；不据此判定为排序算法实现
 programs/solution/Anm.cpp,algorithms/searching/dfs/legacy/programs/solution/Anm.cpp,递归搜索、回溯或枚举排列
@@ -126,14 +126,14 @@ programs/solution/activities.cpp,basics/arrays-and-simulation/legacy/programs/so
 programs/solution/ant.cpp,algorithms/sorting/legacy/programs/solution/ant.cpp,排序算法实现
 programs/solution/backji.cpp,basics/strings/legacy/programs/solution/backji.cpp,复核实现内容后归类：basics/strings
 programs/solution/bags.cpp,basics/drafts/legacy/programs/solution/bags.cpp,空白或仅含注释的历史草稿
-programs/solution/bigben.cpp,algorithms/practice/review/legacy/programs/solution/bigben.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/solution/bigben.cpp,basics/arrays-and-simulation/legacy/programs/solution/bigben.cpp,用小时直接索引数组，再按阈值判断
 programs/solution/bin_float.cpp,basics/number-systems/legacy/programs/solution/bin_float.cpp,复核实现内容后归类：basics/number-systems
 programs/solution/calculate.cpp,data-structures/stacks/legacy/programs/solution/calculate.cpp,栈结构或栈练习
-programs/solution/card.cpp,algorithms/practice/review/legacy/programs/solution/card.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/solution/card.cpp,basics/arrays-and-simulation/legacy/programs/solution/card.cpp,按数组下标奇偶做两组累加
 programs/solution/chaifen.cpp,algorithms/searching/dfs/legacy/programs/solution/chaifen.cpp,递归搜索、回溯或枚举排列
 programs/solution/change.cpp,basics/strings/legacy/programs/solution/change.cpp,复核实现内容后归类：basics/strings
 programs/solution/chengfa.cpp,basics/arrays-and-simulation/legacy/programs/solution/chengfa.cpp,复核实现内容后归类：basics/arrays-and-simulation
-programs/solution/coins.cpp,basics/syntax-and-io/legacy/programs/solution/coins.cpp,基础表达式、输入输出或短练习
+programs/solution/coins.cpp,basics/drafts/legacy/programs/solution/coins.cpp,硬币题草稿，数组声明和计算函数均未写完
 programs/solution/de.cpp,algorithms/recursion/legacy/programs/solution/de.cpp,复核实现内容后归类：algorithms/recursion
 programs/solution/del.cpp,algorithms/greedy/legacy/programs/solution/del.cpp,复核实现内容后归类：algorithms/greedy
 programs/solution/deta.cpp,algorithms/practice/data-generation/legacy/programs/solution/deta.cpp,复核实现内容后归类：algorithms/practice/data-generation
@@ -151,7 +151,7 @@ programs/solution/gjchu-2.cpp,algorithms/high-precision/legacy/programs/solution
 programs/solution/gjj.cpp,algorithms/high-precision/legacy/programs/solution/gjj.cpp,高精度四则运算系列
 programs/solution/gjjian.cpp,algorithms/high-precision/legacy/programs/solution/gjjian.cpp,高精度四则运算系列
 programs/solution/heart.cpp,basics/graphics/legacy/programs/solution/heart.cpp,复核实现内容后归类：basics/graphics
-programs/solution/heepsort.cpp,data-structures/heaps/legacy/programs/solution/heepsort.cpp,堆/优先队列应用
+programs/solution/heepsort.cpp,basics/drafts/legacy/programs/solution/heepsort.cpp,预留堆排序文件，只有空入口
 programs/solution/jiaohu.cpp,algorithms/sorting/legacy/programs/solution/jiaohu.cpp,复核实现内容后归类：algorithms/sorting
 programs/solution/judge.cpp,algorithms/recursion/legacy/programs/solution/judge.cpp,复核实现内容后归类：algorithms/recursion
 programs/solution/kind.cpp,basics/arrays-and-simulation/legacy/programs/solution/kind.cpp,复核实现内容后归类：basics/arrays-and-simulation
@@ -166,13 +166,13 @@ programs/solution/numbers.cpp,basics/number-systems/legacy/programs/solution/num
 programs/solution/ocd.cpp,basics/strings/legacy/programs/solution/ocd.cpp,复核实现内容后归类：basics/strings
 programs/solution/oula_order.cpp,algorithms/searching/dfs/legacy/programs/solution/oula_order.cpp,递归搜索、回溯或枚举排列
 programs/solution/package.cpp,basics/drafts/legacy/programs/solution/package.cpp,空白或仅含注释的历史草稿
-programs/solution/palindrome.cpp,basics/syntax-and-io/legacy/programs/solution/palindrome.cpp,基础表达式、输入输出或短练习
+programs/solution/palindrome.cpp,basics/drafts/legacy/programs/solution/palindrome.cpp,只读入两个整数，未实现题目逻辑
 programs/solution/reminder.cpp,basics/arrays-and-simulation/legacy/programs/solution/reminder.cpp,复核实现内容后归类：basics/arrays-and-simulation
 programs/solution/sb.cpp,basics/syntax-and-io/legacy/programs/solution/sb.cpp,基础表达式、输入输出或短练习
 programs/solution/shenle.cpp,algorithms/practice/review/legacy/programs/solution/shenle.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
 programs/solution/shuixianhua.cpp,basics/arrays-and-simulation/legacy/programs/solution/shuixianhua.cpp,复核实现内容后归类：basics/arrays-and-simulation
-programs/solution/stack.cpp,data-structures/stacks/legacy/programs/solution/stack.cpp,栈结构或栈练习
-programs/solution/sudoku.cpp,basics/syntax-and-io/legacy/programs/solution/sudoku.cpp,基础表达式、输入输出或短练习
+programs/solution/stack.cpp,basics/drafts/legacy/programs/solution/stack.cpp,只读入 n，尚无栈操作
+programs/solution/sudoku.cpp,basics/drafts/legacy/programs/solution/sudoku.cpp,预留数独数组与空入口
 programs/solution/test.cpp,algorithms/greedy/legacy/programs/solution/test.cpp,复核实现内容后归类：algorithms/greedy
 programs/solution/test3.cpp,algorithms/recursion/legacy/programs/solution/test3.cpp,复核实现内容后归类：algorithms/recursion
 programs/solution/toy.cpp,basics/arrays-and-simulation/legacy/programs/solution/toy.cpp,复核实现内容后归类：basics/arrays-and-simulation
@@ -188,10 +188,10 @@ programs/test/PTA.cpp,basics/syntax-and-io/legacy/programs/test/PTA.cpp,基础�
 programs/test/chess.cpp,algorithms/practice/review/legacy/programs/test/chess.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
 programs/test/clock.cpp,basics/strings/legacy/programs/test/clock.cpp,复核实现内容后归类：basics/strings
 programs/test/fish_or_meat.cpp,basics/arrays-and-simulation/legacy/programs/test/fish_or_meat.cpp,复核实现内容后归类：basics/arrays-and-simulation
-programs/test/joseph.cpp,algorithms/searching/bfs/legacy/programs/test/joseph.cpp,队列搜索/BFS 实现
+programs/test/joseph.cpp,data-structures/queues/legacy/programs/test/joseph.cpp,std::queue 用于转移队首和循环出列，属于约瑟夫环的队列模拟
 programs/test/kingdom.cpp,algorithms/practice/review/legacy/programs/test/kingdom.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
 programs/test/lucky.cpp,basics/arrays-and-simulation/legacy/programs/test/lucky.cpp,复核实现内容后归类：basics/arrays-and-simulation
-programs/test/max_cumt.cpp,algorithms/practice/review/legacy/programs/test/max_cumt.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/test/max_cumt.cpp,algorithms/strings/legacy/programs/test/max_cumt.cpp,把前缀接到末尾后枚举循环切分中的子串匹配
 programs/test/rainstar.cpp,algorithms/searching/bfs/legacy/programs/test/rainstar.cpp,队列搜索/BFS 实现
 programs/test/rainstar2.cpp,algorithms/searching/bfs/legacy/programs/test/rainstar2.cpp,队列搜索/BFS 实现
 programs/test/shadow.cpp,basics/arrays-and-simulation/legacy/programs/test/shadow.cpp,复核实现内容后归类：basics/arrays-and-simulation
@@ -199,11 +199,11 @@ programs/test/sweets.cpp,basics/arrays-and-simulation/legacy/programs/test/sweet
 programs/test/1-24/1-1.cpp,basics/syntax-and-io/legacy/programs/test/1-24/1-1.cpp,基础表达式、输入输出或短练习
 programs/test/1-24/1-2.cpp,basics/arrays-and-simulation/legacy/programs/test/1-24/1-2.cpp,复核实现内容后归类：basics/arrays-and-simulation
 programs/test/1-24/1-4.cpp,basics/arrays-and-simulation/legacy/programs/test/1-24/1-4.cpp,复核实现内容后归类：basics/arrays-and-simulation
-programs/test/1-24/1-6.cpp,basics/arrays-and-simulation/legacy/programs/test/1-24/1-6.cpp,复核实现内容后归类：basics/arrays-and-simulation
-programs/test/1-24/1-7.cpp,basics/arrays-and-simulation/legacy/programs/test/1-24/1-7.cpp,复核实现内容后归类：basics/arrays-and-simulation
-programs/test/4-18/L1-8.cpp,algorithms/practice/review/legacy/programs/test/4-18/L1-8.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
-programs/test/4-18/L2-1.cpp,algorithms/practice/review/legacy/programs/test/4-18/L2-1.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
-programs/test/4-18/L2-2.cpp,algorithms/practice/review/legacy/programs/test/4-18/L2-2.cpp,独立题解；题名或实现不足以可靠确定细分主题，保留待复核
+programs/test/1-24/1-6.cpp,basics/strings/legacy/programs/test/1-24/1-6.cpp,逐行使用字符串查找并统计关键词命中
+programs/test/1-24/1-7.cpp,basics/number-systems/legacy/programs/test/1-24/1-7.cpp,把回答序列映射为二进制位，再按位权计算编号
+programs/test/4-18/L1-8.cpp,basics/drafts/legacy/programs/test/4-18/L1-8.cpp,当前只回显字符串，题目的区间操作仍在注释中
+programs/test/4-18/L2-1.cpp,basics/arrays-and-simulation/legacy/programs/test/4-18/L2-1.cpp,更新阈值与输出标记，模拟多轮处理
+programs/test/4-18/L2-2.cpp,basics/arrays-and-simulation/legacy/programs/test/4-18/L2-2.cpp,线性扫描数组找最大值位置和最小的严格上界
 school/04/question01_digit_count.cpp,coursework/university/04/question01_digit_count.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
 school/04/question02_student_scores.cpp,coursework/university/04/question02_student_scores.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核
 school/04/question03_saddle_point.cpp,coursework/university/04/question03_saddle_point.cpp,大学课程作业与配套资料；内容标签：独立题解；题名或实现不足以可靠确定细分主题，保留待复核

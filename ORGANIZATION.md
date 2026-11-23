@@ -6,10 +6,11 @@
 
 - `basics/`：基础语法练习与空白草稿。
 - `algorithms/`：排序、搜索、动态规划、数论、字符串、高精度运算和比赛题目。
-- `data-structures/`：线性表、链表、树、并查集、栈与堆。
+- `data-structures/`：线性表、链表、树、并查集、栈、队列与堆。
 - `coursework/university/`：大学课程作业及配套资料。
 - `coursework/teaching/`：教学讲义、题解与测试数据。
 - `coursework/training/yangzhou/`：扬州集训资料。
+- `algorithms/practice/grid-counting/`：网格中的图形计数，同一题的枚举与优化写法可并排阅读。
 - `algorithms/practice/review/`：暂不能可靠细分的独立题解，需要结合题面继续复核。
 
 ## 阅读提示
